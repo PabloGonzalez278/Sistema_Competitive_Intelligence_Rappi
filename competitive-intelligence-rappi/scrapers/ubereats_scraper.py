@@ -1,9 +1,11 @@
 """
 Scraper para Uber Eats México.
-Recolecta precios, fees, tiempos de entrega y promociones.
+Estrategia: Intercepta las APIs internas + extrae datos del DOM.
 """
 import re
-from playwright.async_api import Page
+import json
+import asyncio
+from playwright.async_api import Page, Response
 
 from scrapers.base_scraper import BaseScraper
 from utils.anti_detection import random_delay
@@ -16,82 +18,85 @@ class UberEatsScraper(BaseScraper):
     PLATFORM_NAME = "uber_eats"
     BASE_URL = "https://www.ubereats.com/mx"
 
+    def __init__(self):
+        super().__init__()
+        self._api_responses: list[dict] = []
+        self._store_data_cache: dict = {}
+
+    async def _capture_api_responses(self, response: Response) -> None:
+        """Captura respuestas API del backend de Uber Eats."""
+        try:
+            url = response.url
+            if response.status == 200 and ("api" in url or "uber" in url or "eats" in url):
+                content_type = response.headers.get("content-type", "")
+                if "json" in content_type:
+                    try:
+                        body = await response.json()
+                        self._api_responses.append({"url": url, "data": body})
+                    except Exception:
+                        pass
+        except Exception:
+            pass
+
     async def set_location(self, page: Page, address: dict) -> bool:
         """Configura la ubicación en Uber Eats."""
         try:
-            # Navegar con parámetros de ubicación
-            url = f"{self.BASE_URL}/feed?diningMode=DELIVERY&pl={address['lat']}%2C{address['lng']}"
+            self._api_responses = []
+            page.on("response", self._capture_api_responses)
+
+            lat, lng = address["lat"], address["lng"]
+            url = f"{self.BASE_URL}/feed?diningMode=DELIVERY&pl={lat}%2C{lng}"
             if not await self.safe_goto(page, url):
                 return False
 
-            await page.wait_for_load_state("networkidle", timeout=15000)
+            await page.wait_for_load_state("networkidle", timeout=20000)
+            await asyncio.sleep(3)
 
-            # Verificar si se cargó el feed
-            try:
-                await page.wait_for_selector(
-                    '[data-testid="store-card"], [class*="StoreCard"], a[href*="/store/"]',
-                    timeout=10000
-                )
-                log.info(f"Ubicación configurada en Uber Eats: {address['name']}")
-                return True
-            except Exception:
-                pass
-
-            # Fallback: usar el input de dirección
-            try:
-                # Buscar botón de dirección
-                addr_btn = page.locator('button[data-testid="address-selector"], [data-testid="location-typeahead"]').first
-                if await addr_btn.is_visible(timeout=5000):
-                    await addr_btn.click()
-                    await random_delay(0.3)
-
-                addr_input = page.locator('input[data-testid="location-typeahead-input"], input[placeholder*="address"], input[placeholder*="dirección"]').first
-                if await addr_input.is_visible(timeout=5000):
-                    await addr_input.fill("")
-                    await addr_input.fill(address["address"])
-                    await random_delay(1)
-
-                    suggestion = page.locator('[data-testid="location-typeahead-suggestion"], [role="option"]').first
-                    if await suggestion.is_visible(timeout=5000):
-                        await suggestion.click()
-                        await random_delay(1.5)
-                        return True
-            except Exception as e:
-                log.debug(f"Fallback de dirección Uber Eats falló: {e}")
-
+            log.info(f"Ubicación configurada en Uber Eats: {address['name']} (APIs: {len(self._api_responses)})")
             return True
 
         except Exception as e:
             log.error(f"Error configurando ubicación en Uber Eats: {e}")
-            return False
+            return True
 
     async def search_store(self, page: Page, store_name: str) -> bool:
         """Busca un restaurante en Uber Eats."""
         try:
-            # Navegar a la URL de búsqueda directamente
-            search_url = f"{self.BASE_URL}/search?q={store_name.replace(' ', '%20')}"
-            if not await self.safe_goto(page, search_url):
-                return False
+            self._api_responses = []
+            self._store_data_cache = {}
+            search_term = store_name.split("/")[0].strip()
 
-            await page.wait_for_load_state("networkidle", timeout=10000)
-            await random_delay(0.5)
+            # Navegar a búsqueda
+            search_url = f"{self.BASE_URL}/search?q={search_term.replace(' ', '%20')}"
+            await self.safe_goto(page, search_url)
+            await page.wait_for_load_state("networkidle", timeout=15000)
+            await asyncio.sleep(3)
 
-            # Buscar el resultado del restaurante
-            store_selectors = [
-                f'a[href*="/store/"]:has-text("{store_name}")',
-                '[data-testid="store-card"]',
-                'a[href*="/store/"]',
-            ]
+            # Buscar en APIs capturadas
+            self._extract_store_from_apis(search_term)
 
-            for selector in store_selectors:
-                try:
-                    el = page.locator(selector).first
-                    if await el.is_visible(timeout=5000):
-                        await el.click()
-                        await page.wait_for_load_state("networkidle", timeout=10000)
-                        return True
-                except Exception:
-                    continue
+            if self._store_data_cache:
+                log.info(f"Datos de {store_name} capturados via API en Uber Eats")
+
+            # Intentar hacer clic en el primer resultado
+            try:
+                store_link = page.locator('a[href*="/store/"]').first
+                if await store_link.is_visible(timeout=5000):
+                    await store_link.click()
+                    await page.wait_for_load_state("networkidle", timeout=10000)
+                    await asyncio.sleep(2)
+                    return True
+            except Exception:
+                pass
+
+            # Extraer del DOM
+            body_text = await page.evaluate("() => document.body?.innerText || ''")
+            if search_term.lower() in body_text.lower():
+                self._store_data_cache["_dom_text"] = body_text
+                return True
+
+            if self._store_data_cache:
+                return True
 
             log.warning(f"No se encontró {store_name} en Uber Eats")
             return False
@@ -99,6 +104,19 @@ class UberEatsScraper(BaseScraper):
         except Exception as e:
             log.error(f"Error buscando {store_name} en Uber Eats: {e}")
             return False
+
+    def _extract_store_from_apis(self, search_term: str) -> None:
+        """Extrae datos de tienda de las APIs capturadas."""
+        search_lower = search_term.lower()
+        for api_resp in self._api_responses:
+            data = api_resp.get("data")
+            if not data:
+                continue
+            data_str = json.dumps(data, ensure_ascii=False).lower()
+            if search_lower in data_str:
+                if isinstance(data, dict):
+                    self._store_data_cache = data
+                    return
 
     async def scrape_restaurant(self, page: Page, restaurant_name: str, products: list[dict]) -> dict:
         """Scrapea productos de un restaurante en Uber Eats."""
@@ -112,46 +130,45 @@ class UberEatsScraper(BaseScraper):
         }
 
         try:
-            # Tiempo estimado de entrega
-            delivery_selectors = [
-                '[data-testid="store-delivery-time"]',
-                '[class*="deliveryTime"]',
-                'text=/\\d+\\s*[-–]\\s*\\d+\\s*min/',
-            ]
-            for selector in delivery_selectors:
-                try:
-                    el = page.locator(selector).first
-                    if await el.is_visible(timeout=3000):
-                        text = await el.text_content()
-                        store_data["estimated_delivery_time"] = text.strip() if text else None
-                        break
-                except Exception:
-                    continue
+            try:
+                body_text = await page.evaluate("() => document.body?.innerText || ''")
+            except Exception:
+                body_text = self._store_data_cache.get("_dom_text", "")
+
+            # Delivery time
+            time_match = re.search(r"(\d+)\s*[-–]\s*(\d+)\s*min", body_text)
+            if time_match:
+                store_data["estimated_delivery_time"] = f"{time_match.group(1)}-{time_match.group(2)} min"
 
             # Rating
-            try:
-                rating_el = page.locator('[data-testid="store-rating"], [class*="rating"]').first
-                if await rating_el.is_visible(timeout=3000):
-                    text = await rating_el.text_content()
-                    if text:
-                        match = re.search(r"(\d+\.?\d*)", text)
-                        if match:
-                            store_data["rating"] = float(match.group(1))
-            except Exception:
-                pass
+            rating_match = re.search(r"(\d\.\d)\s*\(", body_text)
+            if rating_match:
+                store_data["rating"] = float(rating_match.group(1))
 
-            # Buscar productos
+            # APIs
+            for api_resp in self._api_responses:
+                data_str = json.dumps(api_resp.get("data", {}), ensure_ascii=False)
+                if not store_data["estimated_delivery_time"]:
+                    m = re.search(r'"(?:etaRange|deliveryTime|eta)":\s*\{[^}]*"(?:min|text)":\s*"?(\d+)', data_str)
+                    if m:
+                        store_data["estimated_delivery_time"] = f"{m.group(1)} min"
+                if not store_data["rating"]:
+                    m = re.search(r'"(?:rating|ratingValue)":\s*(\d+\.?\d*)', data_str)
+                    if m:
+                        store_data["rating"] = float(m.group(1))
+
             for product in products:
-                product_data = await self._find_product(page, product)
+                product_data = self._find_product(product, body_text)
                 store_data["products"].append(product_data)
 
         except Exception as e:
             log.error(f"Error scrapeando {restaurant_name} en Uber Eats: {e}")
 
+        self._store_data_cache = {}
         return store_data
 
-    async def _find_product(self, page: Page, product: dict) -> dict:
-        """Busca un producto en la página del restaurante de Uber Eats."""
+    def _find_product(self, product: dict, body_text: str) -> dict:
+        """Busca un producto en APIs + DOM."""
         product_data = {
             "product_id": product["id"],
             "product_name": product["name"],
@@ -162,105 +179,78 @@ class UberEatsScraper(BaseScraper):
             "available": False,
         }
 
-        try:
+        # APIs
+        for api_resp in self._api_responses:
+            data_str = json.dumps(api_resp.get("data", {}), ensure_ascii=False)
             for search_term in product["search_terms"]:
-                try:
-                    # Uber Eats estructura sus productos en cards/items
-                    items = page.locator(f'text=/{re.escape(search_term)}/i')
-                    count = await items.count()
+                if search_term.lower() in data_str.lower():
+                    patterns = [
+                        rf'(?i){re.escape(search_term)}[^{{}}]*?"(?:price|unitPrice|itemPrice)":\s*(\d+(?:\.\d+)?)',
+                        rf'"(?:price|unitPrice)":\s*(\d+(?:\.\d+)?)[^{{}}]*?(?i){re.escape(search_term)}',
+                    ]
+                    for pattern in patterns:
+                        match = re.search(pattern, data_str)
+                        if match:
+                            price = float(match.group(1))
+                            if price > 10000:
+                                price = price / 100
+                            product_data.update({"found": True, "available": True, "price": round(price, 2)})
+                            return product_data
 
-                    if count > 0:
-                        item = items.first
-                        # Buscar contenedor padre del producto
-                        container = item.locator(
-                            "xpath=ancestor::li[1] | ancestor::div[contains(@data-testid, 'menu-item') or contains(@class, 'menu-item')]"
-                        ).first
-
-                        try:
-                            if not await container.is_visible(timeout=2000):
-                                container = item.locator("xpath=ancestor::div[4]")
-                        except Exception:
-                            container = item.locator("xpath=ancestor::div[4]")
-
-                        text = await container.text_content()
-                        if text:
-                            prices = re.findall(r"\$\s*([\d,]+(?:\.\d{2})?)", text)
-                            if prices:
-                                product_data["found"] = True
-                                product_data["available"] = True
-                                product_data["price"] = float(prices[0].replace(",", ""))
-                                if len(prices) > 1:
-                                    product_data["original_price"] = float(prices[1].replace(",", ""))
-                                    if product_data["original_price"] > product_data["price"]:
-                                        product_data["original_price"], product_data["price"] = (
-                                            product_data["price"], product_data["original_price"]
-                                        )
-                                        product_data["price"], product_data["original_price"] = (
-                                            product_data["original_price"], product_data["price"]
-                                        )
-                                        product_data["discount"] = round(
-                                            (1 - product_data["price"] / product_data["original_price"]) * 100, 1
-                                        )
-                                break
-                except Exception:
-                    continue
-
-        except Exception as e:
-            log.debug(f"Error buscando producto {product['name']} en Uber Eats: {e}")
+        # DOM
+        for search_term in product["search_terms"]:
+            if search_term.lower() in body_text.lower():
+                idx = body_text.lower().index(search_term.lower())
+                context = body_text[max(0, idx - 50):idx + 200]
+                prices = re.findall(r"\$\s*([\d,]+(?:\.\d{2})?)", context)
+                if prices:
+                    product_data["found"] = True
+                    product_data["available"] = True
+                    product_data["price"] = float(prices[0].replace(",", ""))
+                    if len(prices) > 1:
+                        p2 = float(prices[1].replace(",", ""))
+                        if p2 > product_data["price"]:
+                            product_data["original_price"] = p2
+                            product_data["discount"] = round((1 - product_data["price"] / p2) * 100, 1)
+                    return product_data
 
         return product_data
 
     async def scrape_fees(self, page: Page) -> dict:
         """Extrae fees de Uber Eats."""
-        fees = {
-            "delivery_fee": None,
-            "service_fee": None,
-            "small_order_fee": None,
-            "free_delivery": False,
-        }
+        fees = {"delivery_fee": None, "service_fee": None, "small_order_fee": None, "free_delivery": False}
 
         try:
-            page_text = await page.text_content("body") or ""
+            for api_resp in self._api_responses:
+                data_str = json.dumps(api_resp.get("data", {}), ensure_ascii=False).lower()
+                for pattern, key in [
+                    (r'"deliveryfee":\s*(\d+(?:\.\d+)?)', "delivery_fee"),
+                    (r'"delivery_fee":\s*(\d+(?:\.\d+)?)', "delivery_fee"),
+                    (r'"servicefee":\s*(\d+(?:\.\d+)?)', "service_fee"),
+                    (r'"service_fee":\s*(\d+(?:\.\d+)?)', "service_fee"),
+                ]:
+                    match = re.search(pattern, data_str)
+                    if match and fees[key] is None:
+                        val = float(match.group(1))
+                        if val > 10000:
+                            val = val / 100
+                        fees[key] = round(val, 2)
 
-            # Delivery fee
-            delivery_patterns = [
-                r"[Dd]elivery\s*[Ff]ee[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-                r"[Cc]osto\s*de\s*envío[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-                r"[Ee]nvío[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-                r"\$\s*([\d,]+(?:\.\d{2})?)\s*[Dd]elivery",
-            ]
-            for pattern in delivery_patterns:
-                match = re.search(pattern, page_text)
-                if match:
-                    fees["delivery_fee"] = float(match.group(1).replace(",", ""))
-                    break
+            try:
+                body_text = await page.evaluate("() => document.body?.innerText || ''")
+            except Exception:
+                body_text = ""
 
-            # Free delivery
-            if re.search(r"\$0\.?0{0,2}\s*[Dd]elivery|[Ee]ntrega\s*[Gg]ratis|[Ff]ree\s*[Dd]elivery", page_text):
-                fees["free_delivery"] = True
-                fees["delivery_fee"] = 0.0
+            if body_text:
+                if fees["delivery_fee"] is None:
+                    m = re.search(r"(?:Delivery Fee|Envío|Costo de envío)[:\s]*\$\s*([\d,.]+)", body_text, re.IGNORECASE)
+                    if m:
+                        fees["delivery_fee"] = float(m.group(1).replace(",", ""))
 
-            # Service fee
-            service_patterns = [
-                r"[Ss]ervice\s*[Ff]ee[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-                r"[Cc]argo\s*por\s*servicio[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-            ]
-            for pattern in service_patterns:
-                match = re.search(pattern, page_text)
-                if match:
-                    fees["service_fee"] = float(match.group(1).replace(",", ""))
-                    break
-
-            # Small order fee
-            small_patterns = [
-                r"[Ss]mall\s*[Oo]rder\s*[Ff]ee[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-                r"[Pp]edido\s*mínimo[:\s]*\$\s*([\d,]+(?:\.\d{2})?)",
-            ]
-            for pattern in small_patterns:
-                match = re.search(pattern, page_text)
-                if match:
-                    fees["small_order_fee"] = float(match.group(1).replace(",", ""))
-                    break
+                if re.search(r"\$0\.?0{0,2}\s*(?:Delivery|Envío)|Envío\s+Gratis|Free Delivery", body_text, re.IGNORECASE):
+                    fees["free_delivery"] = True
+                    if fees["delivery_fee"] is None:
+                        fees["delivery_fee"] = 0.0
 
         except Exception as e:
             log.debug(f"Error extrayendo fees de Uber Eats: {e}")
@@ -268,49 +258,37 @@ class UberEatsScraper(BaseScraper):
         return fees
 
     async def scrape_promotions(self, page: Page) -> list[dict]:
-        """Extrae promociones visibles en Uber Eats."""
+        """Extrae promociones de Uber Eats."""
         promotions = []
 
         try:
-            promo_selectors = [
-                '[data-testid*="promo"], [data-testid*="deal"]',
-                '[class*="promo"], [class*="Promo"]',
-                '[class*="discount"], [class*="deal"]',
-                '[class*="offer"], [class*="Offer"]',
-            ]
+            for api_resp in self._api_responses:
+                data_str = json.dumps(api_resp.get("data", {}), ensure_ascii=False)
+                patterns = [
+                    r'"(?:promoText|dealText|promotionText|badgeText)":\s*"([^"]{5,200})"',
+                    r'"(?:text|title)":\s*"([^"]*(?:off|descuento|gratis|free|2x1|deal)[^"]*)"',
+                ]
+                for pattern in patterns:
+                    matches = re.findall(pattern, data_str, re.IGNORECASE)
+                    for m in matches[:5]:
+                        promotions.append({"platform": self.PLATFORM_NAME, "type": "promotion", "description": m.strip()[:200]})
 
-            for selector in promo_selectors:
-                try:
-                    elements = page.locator(selector)
-                    count = await elements.count()
-                    for i in range(min(count, 10)):
-                        text = await elements.nth(i).text_content()
-                        if text and len(text.strip()) > 3:
-                            promotions.append({
-                                "platform": self.PLATFORM_NAME,
-                                "type": "promotion",
-                                "description": text.strip()[:200],
-                            })
-                except Exception:
-                    continue
+            try:
+                body_text = await page.evaluate("() => document.body?.innerText || ''")
+            except Exception:
+                body_text = ""
 
-            # Patrones de descuento en texto
-            page_text = await page.text_content("body") or ""
-            patterns = [
-                r"(\d+%\s*off[^.]{0,50})",
-                r"(Buy\s+\d+,?\s+get\s+\d+[^.]{0,50})",
-                r"(\$\d+\s+off[^.]{0,50})",
-                r"([Ee]nvío\s+[Gg]ratis[^.]{0,50})",
-                r"(2x1[^.]{0,50})",
-            ]
-            for pattern in patterns:
-                matches = re.findall(pattern, page_text, re.IGNORECASE)
-                for m in matches[:3]:
-                    promotions.append({
-                        "platform": self.PLATFORM_NAME,
-                        "type": "discount",
-                        "description": m.strip()[:200],
-                    })
+            if body_text:
+                for pattern in [
+                    r"(\d+%\s*off[^\n]{0,50})",
+                    r"(\$\d+\s+off[^\n]{0,50})",
+                    r"([Ee]nvío\s+[Gg]ratis[^\n]{0,50})",
+                    r"(2x1[^\n]{0,50})",
+                    r"([Ff]ree\s+[Dd]elivery[^\n]{0,50})",
+                ]:
+                    matches = re.findall(pattern, body_text, re.IGNORECASE)
+                    for m in matches[:3]:
+                        promotions.append({"platform": self.PLATFORM_NAME, "type": "discount", "description": m.strip()[:200]})
 
         except Exception as e:
             log.debug(f"Error extrayendo promociones de Uber Eats: {e}")
@@ -321,5 +299,4 @@ class UberEatsScraper(BaseScraper):
             if p["description"] not in seen:
                 seen.add(p["description"])
                 unique.append(p)
-
         return unique[:20]

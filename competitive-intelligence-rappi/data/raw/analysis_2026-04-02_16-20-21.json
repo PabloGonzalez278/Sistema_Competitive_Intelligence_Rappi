@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "platforms_analyzed": [
+      "rappi",
+      "uber_eats",
+      "didi_food"
+    ],
+    "total_addresses": 3,
+    "data_coverage": {
+      "rappi": {
+        "total_addresses": 3,
+        "successful_scrapes": 0,
+        "success_rate": 0.0,
+        "products_found": 0
+      },
+      "uber_eats": {
+        "total_addresses": 3,
+        "successful_scrapes": 0,
+        "success_rate": 0.0,
+        "products_found": 0
+      },
+      "didi_food": {
+        "total_addresses": 3,
+        "successful_scrapes": 0,
+        "success_rate": 0.0,
+        "products_found": 0
+      }
+    }
+  },
+  "price_comparison": {},
+  "fee_comparison": {
+    "rappi": {
+      "delivery_fee": {
+        "avg": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "free_delivery_pct": 100.0,
+        "count": 2
+      },
+      "service_fee": {
+        "avg": null,
+        "min": null,
+        "max": null,
+        "count": 0
+      }
+    }
+  },
+  "delivery_time_comparison": {
+    "rappi": {
+      "avg_minutes": 14.0,
+      "min_minutes": 12.5,
+      "max_minutes": 15.5,
+      "median_minutes": 14.0,
+      "count": 2,
+      "by_zone": {
+        "premium": {
+          "avg": 14.0,
+          "count": 2
+        }
+      }
+    }
+  },
+  "promotion_analysis": {
+    "rappi": {
+      "total_promotions": 6,
+      "unique_promotions": 3,
+      "by_type": {
+        "discount": 6
+      },
+      "sample_promotions": [
+        "Envío Gratis: Aplican TyCIr a la tienda<img alt=\"Papas a la Francesa con Queso\" src=\"https://images",
+        "Envío Gratis: Aplican TyC\",\"products\":[{\"masterProductId\":0,\"id\":\"1930202866_2116277420\",\"minQuantityInGrams\":0,\"pum\":\"\",\"saleType\":\"\",\"realPrice\":120,\"hasToppings\":false,\"isDiscontinued\":false,\"inSto",
+        "Envío gratis\",\"out_of_stock\":\"Agotado\",\"temporarily_unavailable\":\"Temporalmente no disponible\",\"filters\":{\"restaurant\":\"Restaurantes\",\"market\":\"Súper\"}},\"generic_error\":{\"title\":\"Algo salió mal\",\"mess",
+        "Envío Gratis: Aplican TyCIr a la tienda<img alt=\"Papas a la Francesa con Queso\" src=\"https://images",
+        "Envío Gratis: Aplican TyC\",\"products\":[{\"masterProductId\":0,\"id\":\"1930202866_2116277420\",\"minQuantityInGrams\":0,\"pum\":\"\",\"saleType\":\"\",\"realPrice\":120,\"hasToppings\":false,\"isDiscontinued\":false,\"inSto",
+        "Envío gratis\",\"out_of_stock\":\"Agotado\",\"temporarily_unavailable\":\"Temporalmente no disponible\",\"filters\":{\"restaurant\":\"Restaurantes\",\"market\":\"Súper\"}},\"generic_error\":{\"title\":\"Algo salió mal\",\"mess"
+      ]
+    }
+  },
+  "geographic_analysis": {
+    "premium": {
+      "rappi": {
+        "avg_price": null,
+        "avg_delivery_fee": 0.0,
+        "avg_delivery_time": 14.0,
+        "data_points": 0
+      }
+    }
+  },
+  "availability_analysis": {
+    "rappi": {
+      "stores_found": 2,
+      "stores_not_found": 4,
+      "products_found": 0,
+      "products_not_found": 4,
+      "store_availability_rate": 33.3,
+      "product_availability_rate": 0.0
+    },
+    "uber_eats": {
+      "stores_found": 0,
+      "stores_not_found": 9,
+      "products_found": 0,
+      "products_not_found": 0,
+      "store_availability_rate": 0.0,
+      "product_availability_rate": 0
+    },
+    "didi_food": {
+      "stores_found": 0,
+      "stores_not_found": 9,
+      "products_found": 0,
+      "products_not_found": 0,
+      "store_availability_rate": 0.0,
+      "product_availability_rate": 0
+    }
+  },
+  "top_insights": [
+    {
+      "id": 3,
+      "category": "Operations",
+      "finding": "Rappi tiene tiempos de entrega competitivos (14 min promedio), similar o mejor que la competencia.",
+      "impact": "La ventaja operacional en tiempos de entrega es un diferenciador clave para retención.",
+      "recommendation": "Mantener la ventaja operacional. Comunicar los tiempos rápidos como diferenciador en marketing."
+    },
+    {
+      "id": 5,
+      "category": "Promotions",
+      "finding": "Rappi tiene una presencia promocional competitiva con 6 promociones visibles.",
+      "impact": "Mantener presencia promocional fuerte ayuda a retener usuarios y capturar demanda incremental.",
+      "recommendation": "Optimizar el mix de promociones. Priorizar descuentos en productos de alta elasticidad y zonas donde la competencia está ganando share."
+    },
+    {
+      "id": 3,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    },
+    {
+      "id": 4,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    },
+    {
+      "id": 5,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    }
+  ]
+}
