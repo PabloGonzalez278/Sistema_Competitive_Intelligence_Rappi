@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "description": "30 direcciones representativas que cubren diferentes tipos de zonas en CDMX y área metropolitana",
+    "justification": "Se seleccionaron direcciones que representan zonas de alto ingreso, clase media, zonas populares, zonas de oficinas/negocios y zonas periféricas para capturar variabilidad geográfica en precios y disponibilidad."
+  },
+  "addresses": [
+    {
+      "id": "addr_01",
+      "name": "Polanco - Alto Ingreso",
+      "address": "Av. Presidente Masaryk 393, Polanco, Miguel Hidalgo, 11550 CDMX",
+      "lat": 19.4328,
+      "lng": -99.1903,
+      "zone_type": "premium",
+      "description": "Zona de alto poder adquisitivo, alta densidad de restaurantes premium"
+    },
+    {
+      "id": "addr_02",
+      "name": "Condesa - Alto Ingreso",
+      "address": "Av. Tamaulipas 100, Condesa, Cuauhtémoc, 06140 CDMX",
+      "lat": 19.4115,
+      "lng": -99.1733,
+      "zone_type": "premium",
+      "description": "Zona trendy con alta oferta gastronómica"
+    },
+    {
+      "id": "addr_03",
+      "name": "Roma Norte - Alto Ingreso",
+      "address": "Av. Álvaro Obregón 200, Roma Norte, Cuauhtémoc, 06700 CDMX",
+      "lat": 19.4195,
+      "lng": -99.1620,
+      "zone_type": "premium",
+      "description": "Zona cultural con mezcla de restaurantes y comercios"
+    },
+    {
+      "id": "addr_04",
+      "name": "Santa Fe - Alto Ingreso/Corporativo",
+      "address": "Centro Comercial Santa Fe, Av. Vasco de Quiroga 3800, Santa Fe, 05109 CDMX",
+      "lat": 19.3590,
+      "lng": -99.2760,
+      "zone_type": "premium",
+      "description": "Zona corporativa y comercial de alto ingreso"
+    },
+    {
+      "id": "addr_05",
+      "name": "Lomas de Chapultepec - Alto Ingreso",
+      "address": "Palmas 781, Lomas de Chapultepec, Miguel Hidalgo, 11000 CDMX",
+      "lat": 19.4230,
+      "lng": -99.2180,
+      "zone_type": "premium",
+      "description": "Zona residencial de muy alto ingreso"
+    },
+    {
+      "id": "addr_06",
+      "name": "Del Valle Centro - Clase Media Alta",
+      "address": "Av. Insurgentes Sur 1457, Del Valle Centro, Benito Juárez, 03100 CDMX",
+      "lat": 19.3870,
+      "lng": -99.1770,
+      "zone_type": "middle_high",
+      "description": "Zona residencial y comercial clase media-alta"
+    },
+    {
+      "id": "addr_07",
+      "name": "Narvarte - Clase Media",
+      "address": "Av. Universidad 815, Narvarte Poniente, Benito Juárez, 03020 CDMX",
+      "lat": 19.3950,
+      "lng": -99.1600,
+      "zone_type": "middle",
+      "description": "Zona residencial clase media tradicional"
+    },
+    {
+      "id": "addr_08",
+      "name": "Coyoacán Centro - Clase Media",
+      "address": "Jardín Centenario, Coyoacán, 04000 CDMX",
+      "lat": 19.3500,
+      "lng": -99.1620,
+      "zone_type": "middle",
+      "description": "Zona cultural y turística clase media"
+    },
+    {
+      "id": "addr_09",
+      "name": "Tlalpan Centro - Clase Media",
+      "address": "Calz. de Tlalpan 4585, Tlalpan Centro, 14000 CDMX",
+      "lat": 19.2860,
+      "lng": -99.1690,
+      "zone_type": "middle",
+      "description": "Zona residencial clase media al sur"
+    },
+    {
+      "id": "addr_10",
+      "name": "Coapa - Clase Media",
+      "address": "Canal de Miramontes 3855, Coapa, Coyoacán, 04890 CDMX",
+      "lat": 19.3030,
+      "lng": -99.1340,
+      "zone_type": "middle",
+      "description": "Zona residencial clase media sur"
+    },
+    {
+      "id": "addr_11",
+      "name": "Reforma - Zona de Oficinas",
+      "address": "Paseo de la Reforma 222, Juárez, Cuauhtémoc, 06600 CDMX",
+      "lat": 19.4270,
+      "lng": -99.1630,
+      "zone_type": "business",
+      "description": "Corredor corporativo principal de CDMX"
+    },
+    {
+      "id": "addr_12",
+      "name": "Insurgentes Sur - Zona de Oficinas",
+      "address": "Av. Insurgentes Sur 688, Del Valle, 03100 CDMX",
+      "lat": 19.3920,
+      "lng": -99.1740,
+      "zone_type": "business",
+      "description": "Corredor de oficinas sobre Insurgentes"
+    },
+    {
+      "id": "addr_13",
+      "name": "Centro Histórico",
+      "address": "Calle 5 de Mayo 10, Centro Histórico, Cuauhtémoc, 06000 CDMX",
+      "lat": 19.4340,
+      "lng": -99.1370,
+      "zone_type": "commercial",
+      "description": "Centro histórico con alta afluencia peatonal"
+    },
+    {
+      "id": "addr_14",
+      "name": "Zona Rosa",
+      "address": "Amberes 12, Juárez, Cuauhtémoc, 06600 CDMX",
+      "lat": 19.4270,
+      "lng": -99.1560,
+      "zone_type": "commercial",
+      "description": "Zona turística y comercial"
+    },
+    {
+      "id": "addr_15",
+      "name": "Lindavista - Clase Media",
+      "address": "Av. Montevideo 363, Lindavista, Gustavo A. Madero, 07300 CDMX",
+      "lat": 19.4880,
+      "lng": -99.1280,
+      "zone_type": "middle",
+      "description": "Zona residencial norte clase media"
+    },
+    {
+      "id": "addr_16",
+      "name": "Pedregal - Alto Ingreso",
+      "address": "Periférico Sur 3720, Jardines del Pedregal, Coyoacán, 04500 CDMX",
+      "lat": 19.3250,
+      "lng": -99.1930,
+      "zone_type": "premium",
+      "description": "Zona residencial de alto ingreso al sur"
+    },
+    {
+      "id": "addr_17",
+      "name": "Iztapalapa Centro - Popular",
+      "address": "Av. Ermita Iztapalapa 3500, Iztapalapa, 09360 CDMX",
+      "lat": 19.3580,
+      "lng": -99.0930,
+      "zone_type": "popular",
+      "description": "Zona popular de alta densidad poblacional"
+    },
+    {
+      "id": "addr_18",
+      "name": "Tepito - Popular",
+      "address": "Eje 1 Norte 50, Morelos, Cuauhtémoc, 06200 CDMX",
+      "lat": 19.4430,
+      "lng": -99.1280,
+      "zone_type": "popular",
+      "description": "Zona popular comercial"
+    },
+    {
+      "id": "addr_19",
+      "name": "Ciudad Neza - Periférica",
+      "address": "Av. Chimalhuacán 145, Nezahualcóyotl, Estado de México",
+      "lat": 19.4010,
+      "lng": -99.0280,
+      "zone_type": "peripheral",
+      "description": "Municipio conurbado popular"
+    },
+    {
+      "id": "addr_20",
+      "name": "Ecatepec - Periférica",
+      "address": "Av. Central 25, Ecatepec de Morelos, Estado de México",
+      "lat": 19.6010,
+      "lng": -99.0500,
+      "zone_type": "peripheral",
+      "description": "Municipio conurbado periférico norte"
+    },
+    {
+      "id": "addr_21",
+      "name": "Satélite - Clase Media Alta",
+      "address": "Circuito Centro Comercial 2251, Ciudad Satélite, Naucalpan, Estado de México",
+      "lat": 19.5090,
+      "lng": -99.2340,
+      "zone_type": "middle_high",
+      "description": "Zona residencial clase media-alta al norte"
+    },
+    {
+      "id": "addr_22",
+      "name": "Interlomas - Alto Ingreso",
+      "address": "Av. Jesús del Monte 41, Interlomas, Huixquilucan, Estado de México",
+      "lat": 19.3960,
+      "lng": -99.2890,
+      "zone_type": "premium",
+      "description": "Zona residencial premium poniente"
+    },
+    {
+      "id": "addr_23",
+      "name": "Universidad - Estudiantil",
+      "address": "Av. Universidad 3000, UNAM, Coyoacán, 04510 CDMX",
+      "lat": 19.3320,
+      "lng": -99.1870,
+      "zone_type": "university",
+      "description": "Zona universitaria con alta demanda estudiantil"
+    },
+    {
+      "id": "addr_24",
+      "name": "IPN Zacatenco - Estudiantil",
+      "address": "Av. Instituto Politécnico Nacional 2508, Gustavo A. Madero, 07360 CDMX",
+      "lat": 19.5000,
+      "lng": -99.1350,
+      "zone_type": "university",
+      "description": "Zona estudiantil norte"
+    },
+    {
+      "id": "addr_25",
+      "name": "Azcapotzalco - Clase Media Baja",
+      "address": "Av. Azcapotzalco 455, Azcapotzalco, 02000 CDMX",
+      "lat": 19.4840,
+      "lng": -99.1840,
+      "zone_type": "popular",
+      "description": "Zona popular industrial norte"
+    },
+    {
+      "id": "addr_26",
+      "name": "Xochimilco - Periférica",
+      "address": "Av. Guadalupe I. Ramírez 505, Xochimilco, 16090 CDMX",
+      "lat": 19.2620,
+      "lng": -99.1040,
+      "zone_type": "peripheral",
+      "description": "Zona periférica sur con menor cobertura"
+    },
+    {
+      "id": "addr_27",
+      "name": "Tacubaya - Clase Media",
+      "address": "Av. Jalisco 117, Tacubaya, Miguel Hidalgo, 11870 CDMX",
+      "lat": 19.4020,
+      "lng": -99.1970,
+      "zone_type": "middle",
+      "description": "Zona de transición clase media"
+    },
+    {
+      "id": "addr_28",
+      "name": "Mixcoac - Clase Media",
+      "address": "Av. Revolución 1500, Mixcoac, Benito Juárez, 03910 CDMX",
+      "lat": 19.3740,
+      "lng": -99.1880,
+      "zone_type": "middle",
+      "description": "Zona residencial y comercial clase media"
+    },
+    {
+      "id": "addr_29",
+      "name": "Tláhuac - Periférica",
+      "address": "Calz. Tláhuac-Chalco 14, Tláhuac, 13000 CDMX",
+      "lat": 19.2860,
+      "lng": -99.0050,
+      "zone_type": "peripheral",
+      "description": "Zona periférica sureste con menor cobertura"
+    },
+    {
+      "id": "addr_30",
+      "name": "Cuajimalpa - Clase Media Alta",
+      "address": "Av. México 35, Cuajimalpa, 05000 CDMX",
+      "lat": 19.3550,
+      "lng": -99.2990,
+      "zone_type": "middle_high",
+      "description": "Zona residencial poniente"
+    }
+  ]
+}

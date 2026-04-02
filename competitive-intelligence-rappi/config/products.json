@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "description": "Productos estandarizados para comparación de precios entre plataformas",
+    "justification": "Se eligen productos disponibles en las 3 plataformas con precios conocidos y alta frecuencia de compra"
+  },
+  "categories": {
+    "fast_food": {
+      "restaurant": "McDonald's",
+      "products": [
+        {
+          "id": "ff_01",
+          "name": "Big Mac",
+          "search_terms": ["Big Mac", "BigMac"],
+          "category": "hamburguesa",
+          "expected_price_range": {"min": 79, "max": 120}
+        },
+        {
+          "id": "ff_02",
+          "name": "Combo Mediano Big Mac",
+          "search_terms": ["Combo Big Mac", "McCombo Big Mac", "Big Mac Combo Mediano"],
+          "category": "combo",
+          "expected_price_range": {"min": 139, "max": 199}
+        },
+        {
+          "id": "ff_03",
+          "name": "McNuggets 10 piezas",
+          "search_terms": ["McNuggets 10", "Nuggets 10", "10 McNuggets"],
+          "category": "pollo",
+          "expected_price_range": {"min": 89, "max": 140}
+        }
+      ]
+    },
+    "fast_food_alt": {
+      "restaurant": "Burger King",
+      "products": [
+        {
+          "id": "ff_04",
+          "name": "Whopper",
+          "search_terms": ["Whopper", "Whopper Jr"],
+          "category": "hamburguesa",
+          "expected_price_range": {"min": 89, "max": 130}
+        },
+        {
+          "id": "ff_05",
+          "name": "Combo Whopper Mediano",
+          "search_terms": ["Combo Whopper", "Whopper Combo"],
+          "category": "combo",
+          "expected_price_range": {"min": 149, "max": 210}
+        }
+      ]
+    },
+    "retail": {
+      "store": "OXXO / Tienda de conveniencia",
+      "products": [
+        {
+          "id": "rt_01",
+          "name": "Coca-Cola 500ml",
+          "search_terms": ["Coca-Cola 500", "Coca Cola 500ml", "Coca-Cola Original 500"],
+          "category": "bebida",
+          "expected_price_range": {"min": 18, "max": 35}
+        },
+        {
+          "id": "rt_02",
+          "name": "Agua embotellada 1L",
+          "search_terms": ["Agua 1L", "Agua natural 1", "Bonafont 1L", "Ciel 1L"],
+          "category": "bebida",
+          "expected_price_range": {"min": 12, "max": 28}
+        },
+        {
+          "id": "rt_03",
+          "name": "Pañales Huggies Ultra Confort",
+          "search_terms": ["Huggies Ultra Confort", "Huggies", "Pañales Huggies"],
+          "category": "bebé",
+          "expected_price_range": {"min": 180, "max": 350}
+        }
+      ]
+    }
+  }
+}
