@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "platforms_analyzed": [
+      "rappi",
+      "uber_eats",
+      "didi_food"
+    ],
+    "total_addresses": 30,
+    "data_coverage": {
+      "rappi": {
+        "total_addresses": 30,
+        "successful_scrapes": 0,
+        "success_rate": 0.0,
+        "products_found": 0
+      },
+      "uber_eats": {
+        "total_addresses": 30,
+        "successful_scrapes": 0,
+        "success_rate": 0.0,
+        "products_found": 0
+      },
+      "didi_food": {
+        "total_addresses": 30,
+        "successful_scrapes": 0,
+        "success_rate": 0.0,
+        "products_found": 0
+      }
+    }
+  },
+  "price_comparison": {},
+  "fee_comparison": {},
+  "delivery_time_comparison": {},
+  "promotion_analysis": {},
+  "geographic_analysis": {},
+  "availability_analysis": {},
+  "top_insights": [
+    {
+      "id": 1,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    },
+    {
+      "id": 2,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    },
+    {
+      "id": 3,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    },
+    {
+      "id": 4,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    },
+    {
+      "id": 5,
+      "category": "Data Quality",
+      "finding": "Se requieren más datos para generar insights adicionales con alta confianza.",
+      "impact": "La calidad del análisis mejora con mayor volumen de datos y scrapes recurrentes.",
+      "recommendation": "Ejecutar el scraper en múltiples horarios y días para capturar variabilidad temporal."
+    }
+  ]
+}

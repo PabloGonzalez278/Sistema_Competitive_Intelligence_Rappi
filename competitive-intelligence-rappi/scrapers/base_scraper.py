@@ -18,6 +18,7 @@ from config.settings import (
 from utils.anti_detection import (
     get_browser_context_options,
     get_proxy_config,
+    get_stealth_scripts,
     random_delay,
     detect_block,
 )
@@ -78,7 +79,16 @@ class BaseScraper(ABC):
         self.log.info(f"Inicializando navegador para {self.PLATFORM_NAME}")
         self._playwright = await async_playwright().start()
 
-        launch_opts: dict[str, Any] = {"headless": HEADLESS}
+        launch_opts: dict[str, Any] = {
+            "headless": HEADLESS,
+            "args": [
+                "--disable-blink-features=AutomationControlled",
+                "--disable-infobars",
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+            ],
+        }
         proxy = get_proxy_config()
         if proxy:
             launch_opts["proxy"] = proxy
@@ -87,6 +97,9 @@ class BaseScraper(ABC):
         ctx_opts = get_browser_context_options()
         self.context = await self.browser.new_context(**ctx_opts)
         self.context.set_default_timeout(TIMEOUT)
+
+        # Inyectar scripts de stealth en cada nueva página
+        await self.context.add_init_script(get_stealth_scripts())
 
     async def close_browser(self) -> None:
         if self.context:
@@ -101,8 +114,8 @@ class BaseScraper(ABC):
         if not self.context:
             await self.init_browser()
         page = await self.context.new_page()
-        # Bloquear recursos pesados para acelerar scraping
-        await page.route("**/*.{png,jpg,jpeg,gif,svg,woff,woff2,mp4,webm}", lambda route: route.abort())
+        # Solo bloquear videos y fonts pesados (NO imágenes — bloquearlas delata al bot)
+        await page.route("**/*.{woff,woff2,mp4,webm}", lambda route: route.abort())
         return page
 
     async def safe_goto(self, page: Page, url: str, retries: int = MAX_RETRIES) -> bool:
