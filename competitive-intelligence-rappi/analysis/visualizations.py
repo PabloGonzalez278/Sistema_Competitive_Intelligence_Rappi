@@ -1,6 +1,6 @@
 """
-Motor de visualizaciones y generación de informes HTML.
-Genera gráficos comparativos y un informe ejecutivo interactivo.
+Motor de visualizaciones y generación de informes PDF.
+Genera gráficos comparativos y un informe ejecutivo exportado a PDF.
 """
 import json
 from datetime import datetime
@@ -243,8 +243,8 @@ def create_availability_chart(analysis: dict) -> str:
 
 
 def generate_report(analysis: dict, raw_results: dict) -> Path:
-    """Genera informe HTML ejecutivo completo."""
-    log.info("Generando informe ejecutivo HTML...")
+    """Genera informe PDF ejecutivo completo."""
+    log.info("Generando informe ejecutivo PDF...")
 
     # Generar gráficos
     charts = {
@@ -394,9 +394,30 @@ def generate_report(analysis: dict, raw_results: dict) -> Path:
 </html>"""
 
     ts = datetime.now().strftime(TIMESTAMP_FORMAT)
-    report_path = REPORTS_DIR / f"competitive_report_{ts}.html"
-    with open(report_path, "w", encoding="utf-8") as f:
+
+    # Guardar HTML temporal para renderizado
+    html_path = REPORTS_DIR / f"competitive_report_{ts}_temp.html"
+    with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    log.info(f"Informe generado: {report_path}")
-    return report_path
+    # Convertir HTML a PDF usando Playwright (Chromium)
+    pdf_path = REPORTS_DIR / f"competitive_report_{ts}.pdf"
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(f"file:///{html_path.as_posix()}")
+            page.wait_for_load_state("networkidle")
+            page.pdf(
+                path=str(pdf_path),
+                format="A4",
+                print_background=True,
+                margin={"top": "20px", "right": "20px", "bottom": "20px", "left": "20px"},
+            )
+            browser.close()
+    finally:
+        html_path.unlink(missing_ok=True)
+
+    log.info(f"Informe PDF generado: {pdf_path}")
+    return pdf_path

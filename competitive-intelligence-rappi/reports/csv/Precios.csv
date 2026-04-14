@@ -1,0 +1,583 @@
+﻿Plataforma,Dirección,Zona,Tienda,Producto,Product_ID,Precio,Precio_Original,Descuento_%,Encontrado,Disponible,Tiempo_Entrega,Rating
+rappi,Polanco - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,92.69,102.99,10.0,True,True,21-38 min,3.9
+rappi,Polanco - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,204.81,,,True,True,21-38 min,3.9
+rappi,Polanco - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,144.75,,,True,True,21-38 min,3.9
+rappi,Polanco - Alto Ingreso,premium,Burger King,Whopper,ff_04,119.64,,,True,True,21-38 min,3.9
+rappi,Polanco - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,210.84,281.12,25.0,True,True,21-38 min,3.9
+rappi,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,23.22,25.8,10.0,True,True,21-38 min,4.0
+rappi,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.55,,,True,True,21-38 min,4.0
+rappi,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,240.7,283.18,15.0,True,True,21-38 min,4.0
+rappi,Condesa - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,134.03,,,True,True,21-38 min,4.3
+rappi,Condesa - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,201.14,268.19,25.0,True,True,21-38 min,4.3
+rappi,Condesa - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,133.5,,,True,True,21-38 min,4.3
+rappi,Condesa - Alto Ingreso,premium,Burger King,Whopper,ff_04,119.71,,,True,True,21-38 min,4.1
+rappi,Condesa - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,197.32,263.09,25.0,True,True,21-38 min,4.1
+rappi,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,37.09,,,True,True,21-38 min,4.8
+rappi,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,21.01,,,True,True,21-38 min,4.8
+rappi,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,364.07,,,True,True,21-38 min,4.8
+rappi,Roma Norte - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,93.16,,,True,True,21-38 min,4.1
+rappi,Roma Norte - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,165.15,,,True,True,21-38 min,4.1
+rappi,Roma Norte - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,112.82,141.02,20.0,True,True,21-38 min,4.1
+rappi,Roma Norte - Alto Ingreso,premium,Burger King,Whopper,ff_04,112.3,140.38,20.0,True,True,21-38 min,4.3
+rappi,Roma Norte - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,201.27,251.59,20.0,True,True,21-38 min,4.3
+rappi,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,23.72,,,True,True,21-38 min,4.3
+rappi,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,20.37,27.16,25.0,True,True,21-38 min,4.3
+rappi,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,294.5,,,True,True,21-38 min,4.3
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,Big Mac,ff_01,136.94,171.17,20.0,True,True,21-38 min,4.5
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,Combo Mediano Big Mac,ff_02,193.65,,,True,True,21-38 min,4.5
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,McNuggets 10 piezas,ff_03,117.2,,,True,True,21-38 min,4.5
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,Whopper,ff_04,130.14,,,True,True,21-38 min,3.9
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,Combo Whopper Mediano,ff_05,182.38,,,True,True,21-38 min,3.9
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,22.15,,,True,True,21-38 min,4.8
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.45,20.6,25.0,True,True,21-38 min,4.8
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,370.44,,,True,True,21-38 min,4.8
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,Whopper,ff_04,130.77,,,True,True,21-38 min,4.4
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,200.89,,,True,True,21-38 min,4.4
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,34.7,,,True,True,21-38 min,4.4
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,19.93,24.91,20.0,True,True,21-38 min,4.4
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,270.84,,,True,True,21-38 min,4.4
+rappi,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,84.95,,,True,True,22-40 min,4.6
+rappi,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,194.7,,,True,True,22-40 min,4.6
+rappi,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,111.99,,,True,True,22-40 min,4.6
+rappi,Del Valle Centro - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,108.71,135.89,20.0,True,True,22-40 min,4.3
+rappi,Del Valle Centro - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,169.53,,,True,True,22-40 min,4.3
+rappi,Narvarte - Clase Media,middle,McDonald's,Big Mac,ff_01,106.97,,,True,True,25-45 min,4.2
+rappi,Narvarte - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,157.75,,,True,True,25-45 min,4.2
+rappi,Narvarte - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,127.27,,,True,True,25-45 min,4.2
+rappi,Narvarte - Clase Media,middle,Burger King,Whopper,ff_04,98.53,,,True,True,25-45 min,4.6
+rappi,Narvarte - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,202.03,237.68,15.0,True,True,25-45 min,4.6
+rappi,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.77,,,True,True,25-45 min,4.8
+rappi,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,16.87,21.09,20.0,True,True,25-45 min,4.8
+rappi,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,272.37,,,True,True,25-45 min,4.8
+rappi,Coyoacán Centro - Clase Media,middle,McDonald's,Big Mac,ff_01,102.77,,,True,True,25-45 min,4.7
+rappi,Coyoacán Centro - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,176.23,,,True,True,25-45 min,4.7
+rappi,Coyoacán Centro - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,114.71,,,True,True,25-45 min,4.7
+rappi,Coyoacán Centro - Clase Media,middle,Burger King,Whopper,ff_04,112.85,,,True,True,25-45 min,4.4
+rappi,Coyoacán Centro - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,187.3,,,True,True,25-45 min,4.4
+rappi,Tlalpan Centro - Clase Media,middle,McDonald's,Big Mac,ff_01,117.5,156.67,25.0,True,True,25-45 min,4.6
+rappi,Tlalpan Centro - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,190.51,,,True,True,25-45 min,4.6
+rappi,Tlalpan Centro - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,138.2,184.27,25.0,True,True,25-45 min,4.6
+rappi,Tlalpan Centro - Clase Media,middle,Burger King,Whopper,ff_04,112.35,,,True,True,25-45 min,3.9
+rappi,Tlalpan Centro - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,200.5,,,True,True,25-45 min,3.9
+rappi,Coapa - Clase Media,middle,McDonald's,Big Mac,ff_01,95.86,119.82,20.0,True,True,25-45 min,4.3
+rappi,Coapa - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,191.99,,,True,True,25-45 min,4.3
+rappi,Coapa - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,91.85,,,True,True,25-45 min,4.3
+rappi,Coapa - Clase Media,middle,Burger King,Whopper,ff_04,98.48,,,True,True,25-45 min,3.9
+rappi,Coapa - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,182.37,,,True,True,25-45 min,3.9
+rappi,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,29.97,,,True,True,25-45 min,4.7
+rappi,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,17.36,,,True,True,25-45 min,4.7
+rappi,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,247.94,309.92,20.0,True,True,25-45 min,4.7
+rappi,Reforma - Zona de Oficinas,business,McDonald's,Big Mac,ff_01,93.36,,,True,True,22-40 min,4.7
+rappi,Reforma - Zona de Oficinas,business,McDonald's,Combo Mediano Big Mac,ff_02,177.74,,,True,True,22-40 min,4.7
+rappi,Reforma - Zona de Oficinas,business,McDonald's,McNuggets 10 piezas,ff_03,144.74,,,True,True,22-40 min,4.7
+rappi,Reforma - Zona de Oficinas,business,Burger King,Whopper,ff_04,112.54,,,True,True,22-40 min,3.9
+rappi,Reforma - Zona de Oficinas,business,Burger King,Combo Whopper Mediano,ff_05,169.68,,,True,True,22-40 min,3.9
+rappi,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,29.36,39.15,25.0,True,True,22-40 min,4.1
+rappi,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.87,,,True,True,22-40 min,4.1
+rappi,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,223.19,,,True,True,22-40 min,4.1
+rappi,Insurgentes Sur - Zona de Oficinas,business,McDonald's,Big Mac,ff_01,130.9,,,True,True,22-40 min,4.3
+rappi,Insurgentes Sur - Zona de Oficinas,business,McDonald's,Combo Mediano Big Mac,ff_02,210.36,,,True,True,22-40 min,4.3
+rappi,Insurgentes Sur - Zona de Oficinas,business,McDonald's,McNuggets 10 piezas,ff_03,125.05,156.31,20.0,True,True,22-40 min,4.3
+rappi,Insurgentes Sur - Zona de Oficinas,business,Burger King,Whopper,ff_04,142.82,,,True,True,22-40 min,4.7
+rappi,Insurgentes Sur - Zona de Oficinas,business,Burger King,Combo Whopper Mediano,ff_05,211.74,,,True,True,22-40 min,4.7
+rappi,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.71,28.95,25.0,True,True,22-40 min,4.4
+rappi,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,27.38,,,True,True,22-40 min,4.4
+rappi,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,215.0,,,True,True,22-40 min,4.4
+rappi,Centro Histórico,commercial,McDonald's,Big Mac,ff_01,100.35,,,True,True,23-42 min,4.0
+rappi,Centro Histórico,commercial,McDonald's,Combo Mediano Big Mac,ff_02,194.61,,,True,True,23-42 min,4.0
+rappi,Centro Histórico,commercial,McDonald's,McNuggets 10 piezas,ff_03,128.59,,,True,True,23-42 min,4.0
+rappi,Centro Histórico,commercial,Burger King,Whopper,ff_04,100.44,,,True,True,23-42 min,3.9
+rappi,Centro Histórico,commercial,Burger King,Combo Whopper Mediano,ff_05,171.42,,,True,True,23-42 min,3.9
+rappi,Zona Rosa,commercial,McDonald's,Big Mac,ff_01,95.78,,,True,True,23-42 min,3.9
+rappi,Zona Rosa,commercial,McDonald's,Combo Mediano Big Mac,ff_02,157.5,,,True,True,23-42 min,3.9
+rappi,Zona Rosa,commercial,McDonald's,McNuggets 10 piezas,ff_03,122.11,,,True,True,23-42 min,3.9
+rappi,Zona Rosa,commercial,Burger King,Whopper,ff_04,130.54,,,True,True,23-42 min,4.5
+rappi,Zona Rosa,commercial,Burger King,Combo Whopper Mediano,ff_05,193.27,,,True,True,23-42 min,4.5
+rappi,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,33.96,45.28,25.0,True,True,23-42 min,3.8
+rappi,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,18.2,,,True,True,23-42 min,3.8
+rappi,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,329.13,,,True,True,23-42 min,3.8
+rappi,Lindavista - Clase Media,middle,McDonald's,Big Mac,ff_01,115.05,,,True,True,25-45 min,4.3
+rappi,Lindavista - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,163.1,,,True,True,25-45 min,4.3
+rappi,Lindavista - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,128.66,,,True,True,25-45 min,4.3
+rappi,Lindavista - Clase Media,middle,Burger King,Whopper,ff_04,102.58,,,True,True,25-45 min,4.6
+rappi,Lindavista - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,164.05,,,True,True,25-45 min,4.6
+rappi,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,32.91,43.88,25.0,True,True,25-45 min,4.7
+rappi,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,13.67,,,True,True,25-45 min,4.7
+rappi,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,303.15,,,True,True,25-45 min,4.7
+rappi,Pedregal - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,119.56,,,True,True,21-38 min,4.7
+rappi,Pedregal - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,183.28,,,True,True,21-38 min,4.7
+rappi,Pedregal - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,150.49,,,True,True,21-38 min,4.7
+rappi,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.23,,,True,True,21-38 min,4.7
+rappi,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,29.0,,,True,True,21-38 min,4.7
+rappi,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,271.42,,,True,True,21-38 min,4.7
+rappi,Iztapalapa Centro - Popular,popular,McDonald's,Big Mac,ff_01,92.43,123.24,25.0,True,True,27-49 min,4.3
+rappi,Iztapalapa Centro - Popular,popular,McDonald's,Combo Mediano Big Mac,ff_02,146.83,195.77,25.0,True,True,27-49 min,4.3
+rappi,Iztapalapa Centro - Popular,popular,McDonald's,McNuggets 10 piezas,ff_03,85.22,,,True,True,27-49 min,4.3
+rappi,Iztapalapa Centro - Popular,popular,Burger King,Whopper,ff_04,90.71,,,True,True,27-49 min,4.2
+rappi,Iztapalapa Centro - Popular,popular,Burger King,Combo Whopper Mediano,ff_05,175.51,,,True,True,27-49 min,4.2
+rappi,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,18.03,,,True,True,27-49 min,4.2
+rappi,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,21.29,,,True,True,27-49 min,4.2
+rappi,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,248.5,,,True,True,27-49 min,4.2
+rappi,Tepito - Popular,popular,McDonald's,Big Mac,ff_01,107.29,,,True,True,27-49 min,4.4
+rappi,Tepito - Popular,popular,McDonald's,Combo Mediano Big Mac,ff_02,128.47,171.29,25.0,True,True,27-49 min,4.4
+rappi,Tepito - Popular,popular,McDonald's,McNuggets 10 piezas,ff_03,94.0,,,True,True,27-49 min,4.4
+rappi,Tepito - Popular,popular,Burger King,Whopper,ff_04,81.98,,,True,True,27-49 min,4.5
+rappi,Tepito - Popular,popular,Burger King,Combo Whopper Mediano,ff_05,142.34,,,True,True,27-49 min,4.5
+rappi,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.85,,,True,True,27-49 min,4.6
+rappi,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,23.05,,,True,True,27-49 min,4.6
+rappi,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,273.49,303.88,10.0,True,True,27-49 min,4.6
+rappi,Ciudad Neza - Periférica,peripheral,Burger King,Whopper,ff_04,105.2,,,True,True,31-56 min,4.5
+rappi,Ciudad Neza - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,138.61,,,True,True,31-56 min,4.5
+rappi,Ecatepec - Periférica,peripheral,Burger King,Whopper,ff_04,101.14,,,True,True,31-56 min,4.4
+rappi,Ecatepec - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,158.69,,,True,True,31-56 min,4.4
+rappi,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,25.35,,,True,True,31-56 min,3.9
+rappi,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,19.41,,,True,True,31-56 min,3.9
+rappi,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,227.39,,,True,True,31-56 min,3.9
+rappi,Satélite - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,98.13,,,True,True,22-40 min,4.3
+rappi,Satélite - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,164.5,,,True,True,22-40 min,4.3
+rappi,Satélite - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,112.47,124.97,10.0,True,True,22-40 min,4.3
+rappi,Satélite - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,108.68,,,True,True,22-40 min,4.5
+rappi,Satélite - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,189.72,,,True,True,22-40 min,4.5
+rappi,Interlomas - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,132.7,,,True,True,21-38 min,4.4
+rappi,Interlomas - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,212.9,283.87,25.0,True,True,21-38 min,4.4
+rappi,Interlomas - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,118.44,148.05,20.0,True,True,21-38 min,4.4
+rappi,Interlomas - Alto Ingreso,premium,Burger King,Whopper,ff_04,143.84,,,True,True,21-38 min,4.6
+rappi,Interlomas - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,184.19,,,True,True,21-38 min,4.6
+rappi,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,31.7,,,True,True,21-38 min,4.6
+rappi,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,27.05,,,True,True,21-38 min,4.6
+rappi,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,221.73,,,True,True,21-38 min,4.6
+rappi,Universidad - Estudiantil,university,McDonald's,Big Mac,ff_01,81.5,95.88,15.0,True,True,25-45 min,3.8
+rappi,Universidad - Estudiantil,university,McDonald's,Combo Mediano Big Mac,ff_02,183.5,,,True,True,25-45 min,3.8
+rappi,Universidad - Estudiantil,university,McDonald's,McNuggets 10 piezas,ff_03,87.61,109.51,20.0,True,True,25-45 min,3.8
+rappi,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.12,,,True,True,25-45 min,4.2
+rappi,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.25,,,True,True,25-45 min,4.2
+rappi,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,286.85,358.56,20.0,True,True,25-45 min,4.2
+rappi,IPN Zacatenco - Estudiantil,university,McDonald's,Big Mac,ff_01,112.77,150.36,25.0,True,True,25-45 min,4.7
+rappi,IPN Zacatenco - Estudiantil,university,McDonald's,Combo Mediano Big Mac,ff_02,160.38,188.68,15.0,True,True,25-45 min,4.7
+rappi,IPN Zacatenco - Estudiantil,university,McDonald's,McNuggets 10 piezas,ff_03,102.91,,,True,True,25-45 min,4.7
+rappi,IPN Zacatenco - Estudiantil,university,Burger King,Whopper,ff_04,120.26,,,True,True,25-45 min,4.3
+rappi,IPN Zacatenco - Estudiantil,university,Burger King,Combo Whopper Mediano,ff_05,178.52,,,True,True,25-45 min,4.3
+rappi,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,29.3,,,True,True,25-45 min,4.8
+rappi,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,24.22,32.29,25.0,True,True,25-45 min,4.8
+rappi,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,213.34,266.68,20.0,True,True,25-45 min,4.8
+rappi,Azcapotzalco - Clase Media Baja,popular,McDonald's,Big Mac,ff_01,82.03,,,True,True,27-49 min,4.8
+rappi,Azcapotzalco - Clase Media Baja,popular,McDonald's,Combo Mediano Big Mac,ff_02,134.21,,,True,True,27-49 min,4.8
+rappi,Azcapotzalco - Clase Media Baja,popular,McDonald's,McNuggets 10 piezas,ff_03,123.72,,,True,True,27-49 min,4.8
+rappi,Azcapotzalco - Clase Media Baja,popular,Burger King,Whopper,ff_04,95.11,,,True,True,27-49 min,4.7
+rappi,Azcapotzalco - Clase Media Baja,popular,Burger King,Combo Whopper Mediano,ff_05,140.32,,,True,True,27-49 min,4.7
+rappi,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.78,,,True,True,27-49 min,3.8
+rappi,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,14.77,,,True,True,27-49 min,3.8
+rappi,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,199.64,,,True,True,27-49 min,3.8
+rappi,Xochimilco - Periférica,peripheral,Burger King,Whopper,ff_04,78.65,,,True,True,31-56 min,4.3
+rappi,Xochimilco - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,155.23,,,True,True,31-56 min,4.3
+rappi,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,27.64,,,True,True,31-56 min,4.0
+rappi,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,10.59,,,True,True,31-56 min,4.0
+rappi,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,277.82,,,True,True,31-56 min,4.0
+rappi,Tacubaya - Clase Media,middle,McDonald's,Big Mac,ff_01,86.7,115.6,25.0,True,True,25-45 min,4.3
+rappi,Tacubaya - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,157.22,,,True,True,25-45 min,4.3
+rappi,Tacubaya - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,90.63,,,True,True,25-45 min,4.3
+rappi,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,29.34,34.52,15.0,True,True,25-45 min,4.9
+rappi,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,19.37,,,True,True,25-45 min,4.9
+rappi,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,248.96,,,True,True,25-45 min,4.9
+rappi,Mixcoac - Clase Media,middle,McDonald's,Big Mac,ff_01,94.46,,,True,True,25-45 min,4.0
+rappi,Mixcoac - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,182.56,,,True,True,25-45 min,4.0
+rappi,Mixcoac - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,129.92,,,True,True,25-45 min,4.0
+rappi,Mixcoac - Clase Media,middle,Burger King,Whopper,ff_04,107.14,142.85,25.0,True,True,25-45 min,4.5
+rappi,Mixcoac - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,152.39,,,True,True,25-45 min,4.5
+rappi,Tláhuac - Periférica,peripheral,Burger King,Whopper,ff_04,85.32,,,True,True,31-56 min,4.2
+rappi,Tláhuac - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,179.66,211.36,15.0,True,True,31-56 min,4.2
+rappi,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,99.39,,,True,True,22-40 min,4.0
+rappi,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,197.3,,,True,True,22-40 min,4.0
+rappi,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,133.67,,,True,True,22-40 min,4.0
+rappi,Cuajimalpa - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,94.29,,,True,True,22-40 min,4.2
+rappi,Cuajimalpa - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,192.19,,,True,True,22-40 min,4.2
+rappi,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.16,26.45,20.0,True,True,22-40 min,4.1
+rappi,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,26.35,,,True,True,22-40 min,4.1
+rappi,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,232.17,,,True,True,22-40 min,4.1
+uber_eats,Polanco - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,98.34,,,True,True,17-34 min,4.0
+uber_eats,Polanco - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,199.26,,,True,True,17-34 min,4.0
+uber_eats,Polanco - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,111.3,,,True,True,17-34 min,4.0
+uber_eats,Polanco - Alto Ingreso,premium,Burger King,Whopper,ff_04,115.77,,,True,True,17-34 min,3.8
+uber_eats,Polanco - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,198.46,,,True,True,17-34 min,3.8
+uber_eats,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,20.28,,,True,True,17-34 min,4.0
+uber_eats,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,14.91,,,True,True,17-34 min,4.0
+uber_eats,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,357.58,,,True,True,17-34 min,4.0
+uber_eats,Condesa - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,102.77,,,True,True,17-34 min,4.8
+uber_eats,Condesa - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,190.79,,,True,True,17-34 min,4.8
+uber_eats,Condesa - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,117.54,,,True,True,17-34 min,4.8
+uber_eats,Roma Norte - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,119.21,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,185.77,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,112.34,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,Burger King,Whopper,ff_04,131.3,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,208.18,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,33.35,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,29.94,,,True,True,17-34 min,4.1
+uber_eats,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,340.03,,,True,True,17-34 min,4.1
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,Big Mac,ff_01,121.31,,,True,True,17-34 min,4.3
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,Combo Mediano Big Mac,ff_02,206.83,,,True,True,17-34 min,4.3
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,McNuggets 10 piezas,ff_03,116.26,,,True,True,17-34 min,4.3
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,Whopper,ff_04,116.64,,,True,True,17-34 min,4.2
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,Combo Whopper Mediano,ff_05,225.28,,,True,True,17-34 min,4.2
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,124.46,,,True,True,17-34 min,4.5
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,182.15,242.87,25.0,True,True,17-34 min,4.5
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,122.74,,,True,True,17-34 min,4.5
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,Whopper,ff_04,135.37,,,True,True,17-34 min,3.9
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,183.9,245.2,25.0,True,True,17-34 min,3.9
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,31.27,,,True,True,17-34 min,4.3
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,30.22,,,True,True,17-34 min,4.3
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,323.96,,,True,True,17-34 min,4.3
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,110.5,,,True,True,18-36 min,4.0
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,175.99,,,True,True,18-36 min,4.0
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,20.71,,,True,True,18-36 min,4.8
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,18.89,,,True,True,18-36 min,4.8
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,331.9,442.53,25.0,True,True,18-36 min,4.8
+uber_eats,Narvarte - Clase Media,middle,McDonald's,Big Mac,ff_01,102.8,,,True,True,20-40 min,4.4
+uber_eats,Narvarte - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,132.8,,,True,True,20-40 min,4.4
+uber_eats,Narvarte - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,94.88,,,True,True,20-40 min,4.4
+uber_eats,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,23.27,,,True,True,20-40 min,4.7
+uber_eats,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,13.37,,,True,True,20-40 min,4.7
+uber_eats,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,318.04,,,True,True,20-40 min,4.7
+uber_eats,Coyoacán Centro - Clase Media,middle,Burger King,Whopper,ff_04,91.55,,,True,True,20-40 min,4.6
+uber_eats,Coyoacán Centro - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,196.24,218.04,10.0,True,True,20-40 min,4.6
+uber_eats,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,26.34,35.12,25.0,True,True,20-40 min,4.5
+uber_eats,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.29,,,True,True,20-40 min,4.5
+uber_eats,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,199.35,,,True,True,20-40 min,4.5
+uber_eats,Tlalpan Centro - Clase Media,middle,McDonald's,Big Mac,ff_01,102.55,,,True,True,20-40 min,4.3
+uber_eats,Tlalpan Centro - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,143.64,,,True,True,20-40 min,4.3
+uber_eats,Tlalpan Centro - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,120.14,,,True,True,20-40 min,4.3
+uber_eats,Tlalpan Centro - Clase Media,middle,Burger King,Whopper,ff_04,119.12,,,True,True,20-40 min,4.8
+uber_eats,Tlalpan Centro - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,169.87,,,True,True,20-40 min,4.8
+uber_eats,Tlalpan Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,17.26,20.31,15.0,True,True,20-40 min,3.9
+uber_eats,Tlalpan Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,16.86,21.07,20.0,True,True,20-40 min,3.9
+uber_eats,Tlalpan Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,191.6,255.47,25.0,True,True,20-40 min,3.9
+uber_eats,Coapa - Clase Media,middle,McDonald's,Big Mac,ff_01,97.5,121.88,20.0,True,True,20-40 min,4.3
+uber_eats,Coapa - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,157.44,,,True,True,20-40 min,4.3
+uber_eats,Coapa - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,95.44,,,True,True,20-40 min,4.3
+uber_eats,Coapa - Clase Media,middle,Burger King,Whopper,ff_04,105.9,,,True,True,20-40 min,4.7
+uber_eats,Coapa - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,144.33,,,True,True,20-40 min,4.7
+uber_eats,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,30.37,,,True,True,20-40 min,4.8
+uber_eats,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,12.52,,,True,True,20-40 min,4.8
+uber_eats,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,288.75,,,True,True,20-40 min,4.8
+uber_eats,Reforma - Zona de Oficinas,business,McDonald's,Big Mac,ff_01,118.36,,,True,True,18-36 min,4.4
+uber_eats,Reforma - Zona de Oficinas,business,McDonald's,Combo Mediano Big Mac,ff_02,161.18,,,True,True,18-36 min,4.4
+uber_eats,Reforma - Zona de Oficinas,business,McDonald's,McNuggets 10 piezas,ff_03,119.84,159.79,25.0,True,True,18-36 min,4.4
+uber_eats,Reforma - Zona de Oficinas,business,Burger King,Whopper,ff_04,96.73,,,True,True,18-36 min,4.3
+uber_eats,Reforma - Zona de Oficinas,business,Burger King,Combo Whopper Mediano,ff_05,194.74,,,True,True,18-36 min,4.3
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,Burger King,Whopper,ff_04,116.77,,,True,True,18-36 min,4.0
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,Burger King,Combo Whopper Mediano,ff_05,187.58,,,True,True,18-36 min,4.0
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,28.81,,,True,True,18-36 min,4.8
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,16.92,18.8,10.0,True,True,18-36 min,4.8
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,204.84,,,True,True,18-36 min,4.8
+uber_eats,Centro Histórico,commercial,McDonald's,Big Mac,ff_01,102.44,,,True,True,19-38 min,4.5
+uber_eats,Centro Histórico,commercial,McDonald's,Combo Mediano Big Mac,ff_02,179.91,,,True,True,19-38 min,4.5
+uber_eats,Centro Histórico,commercial,McDonald's,McNuggets 10 piezas,ff_03,120.08,,,True,True,19-38 min,4.5
+uber_eats,Centro Histórico,commercial,Burger King,Whopper,ff_04,118.59,,,True,True,19-38 min,4.8
+uber_eats,Centro Histórico,commercial,Burger King,Combo Whopper Mediano,ff_05,157.5,,,True,True,19-38 min,4.8
+uber_eats,Zona Rosa,commercial,McDonald's,Big Mac,ff_01,100.57,111.74,10.0,True,True,19-38 min,4.3
+uber_eats,Zona Rosa,commercial,McDonald's,Combo Mediano Big Mac,ff_02,191.8,,,True,True,19-38 min,4.3
+uber_eats,Zona Rosa,commercial,McDonald's,McNuggets 10 piezas,ff_03,134.75,,,True,True,19-38 min,4.3
+uber_eats,Zona Rosa,commercial,Burger King,Whopper,ff_04,108.46,,,True,True,19-38 min,4.3
+uber_eats,Zona Rosa,commercial,Burger King,Combo Whopper Mediano,ff_05,201.12,,,True,True,19-38 min,4.3
+uber_eats,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,26.95,,,True,True,19-38 min,4.8
+uber_eats,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,24.91,31.14,20.0,True,True,19-38 min,4.8
+uber_eats,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,322.4,379.29,15.0,True,True,19-38 min,4.8
+uber_eats,Lindavista - Clase Media,middle,Burger King,Whopper,ff_04,112.19,,,True,True,20-40 min,4.6
+uber_eats,Lindavista - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,197.66,,,True,True,20-40 min,4.6
+uber_eats,Pedregal - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,122.48,153.1,20.0,True,True,17-34 min,3.8
+uber_eats,Pedregal - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,212.19,249.64,15.0,True,True,17-34 min,3.8
+uber_eats,Pedregal - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,138.4,153.78,10.0,True,True,17-34 min,3.8
+uber_eats,Pedregal - Alto Ingreso,premium,Burger King,Whopper,ff_04,101.45,112.72,10.0,True,True,17-34 min,4.9
+uber_eats,Pedregal - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,229.14,,,True,True,17-34 min,4.9
+uber_eats,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,32.7,,,True,True,17-34 min,4.8
+uber_eats,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,25.86,,,True,True,17-34 min,4.8
+uber_eats,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,294.89,,,True,True,17-34 min,4.8
+uber_eats,Iztapalapa Centro - Popular,popular,McDonald's,Big Mac,ff_01,74.45,,,True,True,22-44 min,4.7
+uber_eats,Iztapalapa Centro - Popular,popular,McDonald's,Combo Mediano Big Mac,ff_02,156.31,208.41,25.0,True,True,22-44 min,4.7
+uber_eats,Iztapalapa Centro - Popular,popular,McDonald's,McNuggets 10 piezas,ff_03,110.39,,,True,True,22-44 min,4.7
+uber_eats,Iztapalapa Centro - Popular,popular,Burger King,Whopper,ff_04,106.96,,,True,True,22-44 min,4.3
+uber_eats,Iztapalapa Centro - Popular,popular,Burger King,Combo Whopper Mediano,ff_05,135.96,,,True,True,22-44 min,4.3
+uber_eats,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,29.33,,,True,True,22-44 min,4.6
+uber_eats,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,11.49,,,True,True,22-44 min,4.6
+uber_eats,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,229.77,,,True,True,22-44 min,4.6
+uber_eats,Tepito - Popular,popular,McDonald's,Big Mac,ff_01,78.43,,,True,True,22-44 min,4.0
+uber_eats,Tepito - Popular,popular,McDonald's,Combo Mediano Big Mac,ff_02,166.86,,,True,True,22-44 min,4.0
+uber_eats,Tepito - Popular,popular,McDonald's,McNuggets 10 piezas,ff_03,100.91,,,True,True,22-44 min,4.0
+uber_eats,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,19.34,,,True,True,22-44 min,3.8
+uber_eats,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,16.7,,,True,True,22-44 min,3.8
+uber_eats,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,277.75,,,True,True,22-44 min,3.8
+uber_eats,Ciudad Neza - Periférica,peripheral,McDonald's,Big Mac,ff_01,95.63,,,True,True,25-50 min,4.2
+uber_eats,Ciudad Neza - Periférica,peripheral,McDonald's,Combo Mediano Big Mac,ff_02,158.5,211.33,25.0,True,True,25-50 min,4.2
+uber_eats,Ciudad Neza - Periférica,peripheral,McDonald's,McNuggets 10 piezas,ff_03,79.48,88.31,10.0,True,True,25-50 min,4.2
+uber_eats,Ciudad Neza - Periférica,peripheral,Burger King,Whopper,ff_04,85.88,107.35,20.0,True,True,25-50 min,4.4
+uber_eats,Ciudad Neza - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,135.74,,,True,True,25-50 min,4.4
+uber_eats,Ciudad Neza - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.26,,,True,True,25-50 min,4.5
+uber_eats,Ciudad Neza - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,13.35,,,True,True,25-50 min,4.5
+uber_eats,Ciudad Neza - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,260.85,,,True,True,25-50 min,4.5
+uber_eats,Ecatepec - Periférica,peripheral,Burger King,Whopper,ff_04,102.49,,,True,True,25-50 min,3.8
+uber_eats,Ecatepec - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,149.82,,,True,True,25-50 min,3.8
+uber_eats,Satélite - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,110.58,,,True,True,18-36 min,4.8
+uber_eats,Satélite - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,148.04,,,True,True,18-36 min,4.8
+uber_eats,Satélite - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,120.52,,,True,True,18-36 min,4.8
+uber_eats,Satélite - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,128.53,,,True,True,18-36 min,4.9
+uber_eats,Satélite - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,149.92,,,True,True,18-36 min,4.9
+uber_eats,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,33.94,,,True,True,18-36 min,4.9
+uber_eats,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,12.82,,,True,True,18-36 min,4.9
+uber_eats,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,189.06,252.08,25.0,True,True,18-36 min,4.9
+uber_eats,Interlomas - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,100.34,133.79,25.0,True,True,17-34 min,4.6
+uber_eats,Interlomas - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,152.21,,,True,True,17-34 min,4.6
+uber_eats,Interlomas - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,130.95,,,True,True,17-34 min,4.6
+uber_eats,Interlomas - Alto Ingreso,premium,Burger King,Whopper,ff_04,115.02,,,True,True,17-34 min,4.2
+uber_eats,Interlomas - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,166.98,,,True,True,17-34 min,4.2
+uber_eats,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,35.32,,,True,True,17-34 min,4.8
+uber_eats,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,29.69,,,True,True,17-34 min,4.8
+uber_eats,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,249.51,311.89,20.0,True,True,17-34 min,4.8
+uber_eats,Universidad - Estudiantil,university,McDonald's,Big Mac,ff_01,79.52,,,True,True,20-40 min,4.6
+uber_eats,Universidad - Estudiantil,university,McDonald's,Combo Mediano Big Mac,ff_02,128.79,,,True,True,20-40 min,4.6
+uber_eats,Universidad - Estudiantil,university,McDonald's,McNuggets 10 piezas,ff_03,116.99,,,True,True,20-40 min,4.6
+uber_eats,Universidad - Estudiantil,university,Burger King,Whopper,ff_04,87.92,,,True,True,20-40 min,3.9
+uber_eats,Universidad - Estudiantil,university,Burger King,Combo Whopper Mediano,ff_05,144.44,,,True,True,20-40 min,3.9
+uber_eats,IPN Zacatenco - Estudiantil,university,McDonald's,Big Mac,ff_01,104.24,,,True,True,20-40 min,4.4
+uber_eats,IPN Zacatenco - Estudiantil,university,McDonald's,Combo Mediano Big Mac,ff_02,131.01,,,True,True,20-40 min,4.4
+uber_eats,IPN Zacatenco - Estudiantil,university,McDonald's,McNuggets 10 piezas,ff_03,86.56,,,True,True,20-40 min,4.4
+uber_eats,IPN Zacatenco - Estudiantil,university,Burger King,Whopper,ff_04,105.63,,,True,True,20-40 min,4.3
+uber_eats,IPN Zacatenco - Estudiantil,university,Burger King,Combo Whopper Mediano,ff_05,186.02,206.69,10.0,True,True,20-40 min,4.3
+uber_eats,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,28.1,,,True,True,20-40 min,4.5
+uber_eats,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,11.53,,,True,True,20-40 min,4.5
+uber_eats,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,253.25,,,True,True,20-40 min,4.5
+uber_eats,Azcapotzalco - Clase Media Baja,popular,Burger King,Whopper,ff_04,99.43,,,True,True,22-44 min,3.8
+uber_eats,Azcapotzalco - Clase Media Baja,popular,Burger King,Combo Whopper Mediano,ff_05,142.8,168.0,15.0,True,True,22-44 min,3.8
+uber_eats,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,22.35,,,True,True,22-44 min,4.4
+uber_eats,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.96,,,True,True,22-44 min,4.4
+uber_eats,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,158.18,,,True,True,22-44 min,4.4
+uber_eats,Xochimilco - Periférica,peripheral,Burger King,Whopper,ff_04,80.93,,,True,True,25-50 min,4.5
+uber_eats,Xochimilco - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,146.23,172.04,15.0,True,True,25-50 min,4.5
+uber_eats,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.72,,,True,True,25-50 min,4.2
+uber_eats,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,16.35,,,True,True,25-50 min,4.2
+uber_eats,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,197.68,247.1,20.0,True,True,25-50 min,4.2
+uber_eats,Tacubaya - Clase Media,middle,McDonald's,Big Mac,ff_01,85.47,,,True,True,20-40 min,4.4
+uber_eats,Tacubaya - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,180.21,200.23,10.0,True,True,20-40 min,4.4
+uber_eats,Tacubaya - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,105.15,,,True,True,20-40 min,4.4
+uber_eats,Tacubaya - Clase Media,middle,Burger King,Whopper,ff_04,95.22,,,True,True,20-40 min,4.3
+uber_eats,Tacubaya - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,195.65,,,True,True,20-40 min,4.3
+uber_eats,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.83,,,True,True,20-40 min,4.0
+uber_eats,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,22.22,,,True,True,20-40 min,4.0
+uber_eats,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,225.37,,,True,True,20-40 min,4.0
+uber_eats,Mixcoac - Clase Media,middle,McDonald's,Big Mac,ff_01,96.18,,,True,True,20-40 min,4.4
+uber_eats,Mixcoac - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,175.19,,,True,True,20-40 min,4.4
+uber_eats,Mixcoac - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,116.08,145.1,20.0,True,True,20-40 min,4.4
+uber_eats,Mixcoac - Clase Media,middle,Burger King,Whopper,ff_04,116.39,,,True,True,20-40 min,4.2
+uber_eats,Mixcoac - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,152.14,,,True,True,20-40 min,4.2
+uber_eats,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,22.28,,,True,True,20-40 min,3.8
+uber_eats,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,18.23,,,True,True,20-40 min,3.8
+uber_eats,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,175.97,219.96,20.0,True,True,20-40 min,3.8
+uber_eats,Tláhuac - Periférica,peripheral,McDonald's,Big Mac,ff_01,68.5,,,True,True,25-50 min,4.3
+uber_eats,Tláhuac - Periférica,peripheral,McDonald's,Combo Mediano Big Mac,ff_02,158.54,,,True,True,25-50 min,4.3
+uber_eats,Tláhuac - Periférica,peripheral,McDonald's,McNuggets 10 piezas,ff_03,99.67,,,True,True,25-50 min,4.3
+uber_eats,Tláhuac - Periférica,peripheral,Burger King,Whopper,ff_04,100.25,,,True,True,25-50 min,4.3
+uber_eats,Tláhuac - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,140.96,,,True,True,25-50 min,4.3
+uber_eats,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.3,,,True,True,25-50 min,4.8
+uber_eats,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,12.77,15.02,15.0,True,True,25-50 min,4.8
+uber_eats,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,210.2,262.75,20.0,True,True,25-50 min,4.8
+uber_eats,Cuajimalpa - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,103.12,,,True,True,18-36 min,4.4
+uber_eats,Cuajimalpa - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,206.77,275.69,25.0,True,True,18-36 min,4.4
+didi_food,Polanco - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,88.48,,,True,True,23-42 min,4.4
+didi_food,Polanco - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,159.19,176.88,10.0,True,True,23-42 min,4.4
+didi_food,Polanco - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,98.11,,,True,True,23-42 min,4.4
+didi_food,Polanco - Alto Ingreso,premium,Burger King,Whopper,ff_04,107.59,,,True,True,23-42 min,4.4
+didi_food,Polanco - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,175.7,,,True,True,23-42 min,4.4
+didi_food,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,32.79,,,True,True,23-42 min,4.3
+didi_food,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,17.16,,,True,True,23-42 min,4.3
+didi_food,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,240.57,,,True,True,23-42 min,4.3
+didi_food,Condesa - Alto Ingreso,premium,Burger King,Whopper,ff_04,99.51,,,True,True,23-42 min,4.0
+didi_food,Condesa - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,197.4,,,True,True,23-42 min,4.0
+didi_food,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,34.21,45.61,25.0,True,True,23-42 min,3.8
+didi_food,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,12.74,,,True,True,23-42 min,3.8
+didi_food,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,364.36,,,True,True,23-42 min,3.8
+didi_food,Roma Norte - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,96.56,,,True,True,23-42 min,4.7
+didi_food,Roma Norte - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,153.36,,,True,True,23-42 min,4.7
+didi_food,Roma Norte - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,140.65,,,True,True,23-42 min,4.7
+didi_food,Roma Norte - Alto Ingreso,premium,Burger King,Whopper,ff_04,119.58,,,True,True,23-42 min,4.7
+didi_food,Roma Norte - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,169.61,,,True,True,23-42 min,4.7
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,Big Mac,ff_01,84.91,,,True,True,23-42 min,4.4
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,Combo Mediano Big Mac,ff_02,156.6,,,True,True,23-42 min,4.4
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,McNuggets 10 piezas,ff_03,124.05,165.4,25.0,True,True,23-42 min,4.4
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,Whopper,ff_04,116.38,,,True,True,23-42 min,4.9
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,Combo Whopper Mediano,ff_05,217.73,,,True,True,23-42 min,4.9
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,23.61,,,True,True,23-42 min,4.7
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,24.18,,,True,True,23-42 min,4.7
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,251.71,,,True,True,23-42 min,4.7
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,110.2,,,True,True,23-42 min,4.5
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,173.2,,,True,True,23-42 min,4.5
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,132.8,,,True,True,23-42 min,4.5
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,Whopper,ff_04,101.89,,,True,True,23-42 min,4.3
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,219.35,258.06,15.0,True,True,23-42 min,4.3
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,20.94,,,True,True,23-42 min,4.8
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.21,,,True,True,23-42 min,4.8
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,354.98,,,True,True,23-42 min,4.8
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,92.81,,,True,True,25-45 min,4.6
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,166.55,185.06,10.0,True,True,25-45 min,4.6
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,117.1,,,True,True,25-45 min,4.6
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,86.61,96.23,10.0,True,True,25-45 min,4.6
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,199.96,,,True,True,25-45 min,4.6
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,29.75,,,True,True,25-45 min,4.5
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,26.38,,,True,True,25-45 min,4.5
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,331.54,,,True,True,25-45 min,4.5
+didi_food,Narvarte - Clase Media,middle,McDonald's,Big Mac,ff_01,107.72,,,True,True,28-50 min,4.5
+didi_food,Narvarte - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,148.83,,,True,True,28-50 min,4.5
+didi_food,Narvarte - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,122.32,,,True,True,28-50 min,4.5
+didi_food,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.17,,,True,True,28-50 min,3.8
+didi_food,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,22.42,,,True,True,28-50 min,3.8
+didi_food,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,320.29,,,True,True,28-50 min,3.8
+didi_food,Coyoacán Centro - Clase Media,middle,McDonald's,Big Mac,ff_01,99.61,,,True,True,28-50 min,4.0
+didi_food,Coyoacán Centro - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,167.63,,,True,True,28-50 min,4.0
+didi_food,Coyoacán Centro - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,90.93,113.66,20.0,True,True,28-50 min,4.0
+didi_food,Coyoacán Centro - Clase Media,middle,Burger King,Whopper,ff_04,111.1,130.71,15.0,True,True,28-50 min,4.0
+didi_food,Coyoacán Centro - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,168.79,,,True,True,28-50 min,4.0
+didi_food,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,20.98,,,True,True,28-50 min,4.6
+didi_food,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,20.0,22.22,10.0,True,True,28-50 min,4.6
+didi_food,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,296.35,,,True,True,28-50 min,4.6
+didi_food,Tlalpan Centro - Clase Media,middle,McDonald's,Big Mac,ff_01,75.46,,,True,True,28-50 min,4.4
+didi_food,Tlalpan Centro - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,177.24,208.52,15.0,True,True,28-50 min,4.4
+didi_food,Tlalpan Centro - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,116.47,,,True,True,28-50 min,4.4
+didi_food,Tlalpan Centro - Clase Media,middle,Burger King,Whopper,ff_04,98.28,,,True,True,28-50 min,4.1
+didi_food,Tlalpan Centro - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,175.56,,,True,True,28-50 min,4.1
+didi_food,Coapa - Clase Media,middle,McDonald's,Big Mac,ff_01,77.27,,,True,True,28-50 min,4.6
+didi_food,Coapa - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,145.97,,,True,True,28-50 min,4.6
+didi_food,Coapa - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,120.23,,,True,True,28-50 min,4.6
+didi_food,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,25.8,,,True,True,28-50 min,4.3
+didi_food,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,17.84,,,True,True,28-50 min,4.3
+didi_food,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,197.22,,,True,True,28-50 min,4.3
+didi_food,Reforma - Zona de Oficinas,business,McDonald's,Big Mac,ff_01,84.04,,,True,True,25-45 min,4.4
+didi_food,Reforma - Zona de Oficinas,business,McDonald's,Combo Mediano Big Mac,ff_02,196.49,,,True,True,25-45 min,4.4
+didi_food,Reforma - Zona de Oficinas,business,McDonald's,McNuggets 10 piezas,ff_03,139.75,164.41,15.0,True,True,25-45 min,4.4
+didi_food,Reforma - Zona de Oficinas,business,Burger King,Whopper,ff_04,112.79,132.69,15.0,True,True,25-45 min,4.5
+didi_food,Reforma - Zona de Oficinas,business,Burger King,Combo Whopper Mediano,ff_05,201.18,,,True,True,25-45 min,4.5
+didi_food,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.37,,,True,True,25-45 min,4.7
+didi_food,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,17.86,,,True,True,25-45 min,4.7
+didi_food,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,252.61,,,True,True,25-45 min,4.7
+didi_food,Insurgentes Sur - Zona de Oficinas,business,McDonald's,Big Mac,ff_01,94.73,,,True,True,25-45 min,3.9
+didi_food,Insurgentes Sur - Zona de Oficinas,business,McDonald's,Combo Mediano Big Mac,ff_02,196.62,231.32,15.0,True,True,25-45 min,3.9
+didi_food,Insurgentes Sur - Zona de Oficinas,business,McDonald's,McNuggets 10 piezas,ff_03,135.96,,,True,True,25-45 min,3.9
+didi_food,Insurgentes Sur - Zona de Oficinas,business,Burger King,Whopper,ff_04,119.39,,,True,True,25-45 min,4.1
+didi_food,Insurgentes Sur - Zona de Oficinas,business,Burger King,Combo Whopper Mediano,ff_05,204.94,,,True,True,25-45 min,4.1
+didi_food,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,25.9,,,True,True,25-45 min,4.2
+didi_food,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,16.61,,,True,True,25-45 min,4.2
+didi_food,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,210.87,,,True,True,25-45 min,4.2
+didi_food,Centro Histórico,commercial,McDonald's,Big Mac,ff_01,95.7,112.59,15.0,True,True,26-47 min,4.8
+didi_food,Centro Histórico,commercial,McDonald's,Combo Mediano Big Mac,ff_02,165.55,,,True,True,26-47 min,4.8
+didi_food,Centro Histórico,commercial,McDonald's,McNuggets 10 piezas,ff_03,118.08,,,True,True,26-47 min,4.8
+didi_food,Centro Histórico,commercial,Burger King,Whopper,ff_04,123.89,,,True,True,26-47 min,4.7
+didi_food,Centro Histórico,commercial,Burger King,Combo Whopper Mediano,ff_05,148.38,,,True,True,26-47 min,4.7
+didi_food,Centro Histórico,commercial,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,21.31,,,True,True,26-47 min,4.8
+didi_food,Centro Histórico,commercial,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,22.84,,,True,True,26-47 min,4.8
+didi_food,Centro Histórico,commercial,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,179.83,,,True,True,26-47 min,4.8
+didi_food,Zona Rosa,commercial,McDonald's,Big Mac,ff_01,84.6,,,True,True,26-47 min,4.8
+didi_food,Zona Rosa,commercial,McDonald's,Combo Mediano Big Mac,ff_02,157.6,,,True,True,26-47 min,4.8
+didi_food,Zona Rosa,commercial,McDonald's,McNuggets 10 piezas,ff_03,114.11,,,True,True,26-47 min,4.8
+didi_food,Zona Rosa,commercial,Burger King,Whopper,ff_04,100.66,,,True,True,26-47 min,3.9
+didi_food,Zona Rosa,commercial,Burger King,Combo Whopper Mediano,ff_05,200.7,236.12,15.0,True,True,26-47 min,3.9
+didi_food,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,26.49,,,True,True,26-47 min,3.9
+didi_food,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,22.54,28.17,20.0,True,True,26-47 min,3.9
+didi_food,Zona Rosa,commercial,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,332.51,,,True,True,26-47 min,3.9
+didi_food,Lindavista - Clase Media,middle,McDonald's,Big Mac,ff_01,106.85,,,True,True,28-50 min,4.1
+didi_food,Lindavista - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,128.36,,,True,True,28-50 min,4.1
+didi_food,Lindavista - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,103.7,,,True,True,28-50 min,4.1
+didi_food,Lindavista - Clase Media,middle,Burger King,Whopper,ff_04,111.33,,,True,True,28-50 min,4.3
+didi_food,Lindavista - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,146.97,,,True,True,28-50 min,4.3
+didi_food,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,25.82,,,True,True,28-50 min,3.9
+didi_food,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,14.53,,,True,True,28-50 min,3.9
+didi_food,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,172.19,229.59,25.0,True,True,28-50 min,3.9
+didi_food,Pedregal - Alto Ingreso,premium,McDonald's,Big Mac,ff_01,96.52,,,True,True,23-42 min,4.1
+didi_food,Pedregal - Alto Ingreso,premium,McDonald's,Combo Mediano Big Mac,ff_02,187.7,,,True,True,23-42 min,4.1
+didi_food,Pedregal - Alto Ingreso,premium,McDonald's,McNuggets 10 piezas,ff_03,109.6,,,True,True,23-42 min,4.1
+didi_food,Pedregal - Alto Ingreso,premium,Burger King,Whopper,ff_04,136.33,,,True,True,23-42 min,3.9
+didi_food,Pedregal - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,177.32,,,True,True,23-42 min,3.9
+didi_food,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,32.9,,,True,True,23-42 min,4.0
+didi_food,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,17.9,23.87,25.0,True,True,23-42 min,4.0
+didi_food,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,214.32,252.14,15.0,True,True,23-42 min,4.0
+didi_food,Iztapalapa Centro - Popular,popular,McDonald's,Big Mac,ff_01,95.23,,,True,True,30-55 min,4.2
+didi_food,Iztapalapa Centro - Popular,popular,McDonald's,Combo Mediano Big Mac,ff_02,150.21,,,True,True,30-55 min,4.2
+didi_food,Iztapalapa Centro - Popular,popular,McDonald's,McNuggets 10 piezas,ff_03,85.24,106.55,20.0,True,True,30-55 min,4.2
+didi_food,Iztapalapa Centro - Popular,popular,Burger King,Whopper,ff_04,77.88,86.53,10.0,True,True,30-55 min,4.8
+didi_food,Iztapalapa Centro - Popular,popular,Burger King,Combo Whopper Mediano,ff_05,125.97,,,True,True,30-55 min,4.8
+didi_food,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.11,26.79,10.0,True,True,30-55 min,3.9
+didi_food,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,11.56,,,True,True,30-55 min,3.9
+didi_food,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,244.89,,,True,True,30-55 min,3.9
+didi_food,Tepito - Popular,popular,McDonald's,Big Mac,ff_01,65.57,72.86,10.0,True,True,30-55 min,4.2
+didi_food,Tepito - Popular,popular,McDonald's,Combo Mediano Big Mac,ff_02,122.6,,,True,True,30-55 min,4.2
+didi_food,Tepito - Popular,popular,McDonald's,McNuggets 10 piezas,ff_03,87.07,,,True,True,30-55 min,4.2
+didi_food,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,16.77,,,True,True,30-55 min,4.8
+didi_food,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,12.59,15.74,20.0,True,True,30-55 min,4.8
+didi_food,Tepito - Popular,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,271.23,,,True,True,30-55 min,4.8
+didi_food,Ciudad Neza - Periférica,peripheral,McDonald's,Big Mac,ff_01,66.84,,,True,True,35-62 min,4.2
+didi_food,Ciudad Neza - Periférica,peripheral,McDonald's,Combo Mediano Big Mac,ff_02,139.75,,,True,True,35-62 min,4.2
+didi_food,Ciudad Neza - Periférica,peripheral,McDonald's,McNuggets 10 piezas,ff_03,98.66,,,True,True,35-62 min,4.2
+didi_food,Ciudad Neza - Periférica,peripheral,Burger King,Whopper,ff_04,73.52,,,True,True,35-62 min,3.9
+didi_food,Ciudad Neza - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,143.53,,,True,True,35-62 min,3.9
+didi_food,Ecatepec - Periférica,peripheral,McDonald's,Big Mac,ff_01,71.07,,,True,True,35-62 min,4.7
+didi_food,Ecatepec - Periférica,peripheral,McDonald's,Combo Mediano Big Mac,ff_02,138.13,,,True,True,35-62 min,4.7
+didi_food,Ecatepec - Periférica,peripheral,McDonald's,McNuggets 10 piezas,ff_03,100.65,,,True,True,35-62 min,4.7
+didi_food,Ecatepec - Periférica,peripheral,Burger King,Whopper,ff_04,78.74,,,True,True,35-62 min,3.8
+didi_food,Ecatepec - Periférica,peripheral,Burger King,Combo Whopper Mediano,ff_05,137.48,,,True,True,35-62 min,3.8
+didi_food,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,18.7,,,True,True,35-62 min,4.1
+didi_food,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,14.55,,,True,True,35-62 min,4.1
+didi_food,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,237.34,,,True,True,35-62 min,4.1
+didi_food,Satélite - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,96.24,,,True,True,25-45 min,4.9
+didi_food,Satélite - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,147.45,,,True,True,25-45 min,4.9
+didi_food,Satélite - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,94.12,,,True,True,25-45 min,4.9
+didi_food,Satélite - Clase Media Alta,middle_high,Burger King,Whopper,ff_04,101.25,,,True,True,25-45 min,4.5
+didi_food,Satélite - Clase Media Alta,middle_high,Burger King,Combo Whopper Mediano,ff_05,190.9,,,True,True,25-45 min,4.5
+didi_food,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,20.75,27.67,25.0,True,True,25-45 min,4.1
+didi_food,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.93,,,True,True,25-45 min,4.1
+didi_food,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,276.4,,,True,True,25-45 min,4.1
+didi_food,Interlomas - Alto Ingreso,premium,Burger King,Whopper,ff_04,114.84,,,True,True,23-42 min,4.1
+didi_food,Interlomas - Alto Ingreso,premium,Burger King,Combo Whopper Mediano,ff_05,213.95,,,True,True,23-42 min,4.1
+didi_food,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,32.09,,,True,True,23-42 min,4.3
+didi_food,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.53,18.27,15.0,True,True,23-42 min,4.3
+didi_food,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,291.9,,,True,True,23-42 min,4.3
+didi_food,Universidad - Estudiantil,university,McDonald's,Big Mac,ff_01,73.08,97.44,25.0,True,True,28-50 min,4.0
+didi_food,Universidad - Estudiantil,university,McDonald's,Combo Mediano Big Mac,ff_02,169.29,199.16,15.0,True,True,28-50 min,4.0
+didi_food,Universidad - Estudiantil,university,McDonald's,McNuggets 10 piezas,ff_03,121.64,,,True,True,28-50 min,4.0
+didi_food,Universidad - Estudiantil,university,Burger King,Whopper,ff_04,100.87,,,True,True,28-50 min,4.6
+didi_food,Universidad - Estudiantil,university,Burger King,Combo Whopper Mediano,ff_05,134.32,,,True,True,28-50 min,4.6
+didi_food,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.8,,,True,True,28-50 min,3.9
+didi_food,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,18.09,,,True,True,28-50 min,3.9
+didi_food,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,182.47,,,True,True,28-50 min,3.9
+didi_food,IPN Zacatenco - Estudiantil,university,Burger King,Whopper,ff_04,84.35,,,True,True,28-50 min,4.6
+didi_food,IPN Zacatenco - Estudiantil,university,Burger King,Combo Whopper Mediano,ff_05,142.77,,,True,True,28-50 min,4.6
+didi_food,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,24.31,,,True,True,28-50 min,4.9
+didi_food,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,12.77,,,True,True,28-50 min,4.9
+didi_food,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,295.01,347.07,15.0,True,True,28-50 min,4.9
+didi_food,Azcapotzalco - Clase Media Baja,popular,McDonald's,Big Mac,ff_01,76.9,90.47,15.0,True,True,30-55 min,4.8
+didi_food,Azcapotzalco - Clase Media Baja,popular,McDonald's,Combo Mediano Big Mac,ff_02,133.33,,,True,True,30-55 min,4.8
+didi_food,Azcapotzalco - Clase Media Baja,popular,McDonald's,McNuggets 10 piezas,ff_03,95.37,,,True,True,30-55 min,4.8
+didi_food,Azcapotzalco - Clase Media Baja,popular,Burger King,Whopper,ff_04,78.76,,,True,True,30-55 min,3.8
+didi_food,Azcapotzalco - Clase Media Baja,popular,Burger King,Combo Whopper Mediano,ff_05,132.19,,,True,True,30-55 min,3.8
+didi_food,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,28.42,,,True,True,30-55 min,4.2
+didi_food,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,17.06,18.96,10.0,True,True,30-55 min,4.2
+didi_food,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,236.28,,,True,True,30-55 min,4.2
+didi_food,Tacubaya - Clase Media,middle,McDonald's,Big Mac,ff_01,91.46,114.32,20.0,True,True,28-50 min,4.9
+didi_food,Tacubaya - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,147.86,,,True,True,28-50 min,4.9
+didi_food,Tacubaya - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,123.81,,,True,True,28-50 min,4.9
+didi_food,Tacubaya - Clase Media,middle,Burger King,Whopper,ff_04,90.14,120.19,25.0,True,True,28-50 min,4.8
+didi_food,Tacubaya - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,184.53,,,True,True,28-50 min,4.8
+didi_food,Mixcoac - Clase Media,middle,McDonald's,Big Mac,ff_01,100.43,,,True,True,28-50 min,3.9
+didi_food,Mixcoac - Clase Media,middle,McDonald's,Combo Mediano Big Mac,ff_02,180.43,,,True,True,28-50 min,3.9
+didi_food,Mixcoac - Clase Media,middle,McDonald's,McNuggets 10 piezas,ff_03,83.11,,,True,True,28-50 min,3.9
+didi_food,Mixcoac - Clase Media,middle,Burger King,Whopper,ff_04,91.35,,,True,True,28-50 min,4.4
+didi_food,Mixcoac - Clase Media,middle,Burger King,Combo Whopper Mediano,ff_05,168.12,,,True,True,28-50 min,4.4
+didi_food,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,23.24,,,True,True,28-50 min,4.4
+didi_food,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,21.74,,,True,True,28-50 min,4.4
+didi_food,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,180.79,,,True,True,28-50 min,4.4
+didi_food,Tláhuac - Periférica,peripheral,McDonald's,Big Mac,ff_01,74.31,,,True,True,35-62 min,4.5
+didi_food,Tláhuac - Periférica,peripheral,McDonald's,Combo Mediano Big Mac,ff_02,146.33,,,True,True,35-62 min,4.5
+didi_food,Tláhuac - Periférica,peripheral,McDonald's,McNuggets 10 piezas,ff_03,86.56,,,True,True,35-62 min,4.5
+didi_food,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,26.4,,,True,True,35-62 min,4.5
+didi_food,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,15.36,19.2,20.0,True,True,35-62 min,4.5
+didi_food,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,279.13,,,True,True,35-62 min,4.5
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,Big Mac,ff_01,88.44,,,True,True,25-45 min,4.7
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,Combo Mediano Big Mac,ff_02,154.14,,,True,True,25-45 min,4.7
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,McNuggets 10 piezas,ff_03,123.15,,,True,True,25-45 min,4.7
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Coca-Cola 500ml,rt_01,19.17,,,True,True,25-45 min,4.3
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Agua embotellada 1L,rt_02,25.54,,,True,True,25-45 min,4.3
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,Pañales Huggies Ultra Confort,rt_03,286.41,,,True,True,25-45 min,4.3

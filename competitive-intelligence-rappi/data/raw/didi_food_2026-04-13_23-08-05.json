@@ -1,0 +1,77 @@
+[
+  {
+    "platform": "didi_food",
+    "address_id": "addr_01",
+    "address_name": "Polanco - Alto Ingreso",
+    "address_full": "Av. Presidente Masaryk 393, Polanco, Miguel Hidalgo, 11550 CDMX",
+    "zone_type": "premium",
+    "coordinates": {
+      "lat": 19.4328,
+      "lng": -99.1903
+    },
+    "timestamp": "2026-04-14_04-05-59",
+    "restaurants": [],
+    "products": [],
+    "fees": {},
+    "promotions": [],
+    "errors": [
+      "Tienda no encontrada: McDonald's",
+      "Tienda no encontrada: Burger King",
+      "Tienda no encontrada: OXXO / Tienda de conveniencia"
+    ],
+    "metadata": {
+      "scraping_completed": true,
+      "blocked": false
+    }
+  },
+  {
+    "platform": "didi_food",
+    "address_id": "addr_02",
+    "address_name": "Condesa - Alto Ingreso",
+    "address_full": "Av. Tamaulipas 100, Condesa, Cuauhtémoc, 06140 CDMX",
+    "zone_type": "premium",
+    "coordinates": {
+      "lat": 19.4115,
+      "lng": -99.1733
+    },
+    "timestamp": "2026-04-14_04-06-47",
+    "restaurants": [],
+    "products": [],
+    "fees": {},
+    "promotions": [],
+    "errors": [
+      "Tienda no encontrada: McDonald's",
+      "Tienda no encontrada: Burger King",
+      "Tienda no encontrada: OXXO / Tienda de conveniencia"
+    ],
+    "metadata": {
+      "scraping_completed": true,
+      "blocked": false
+    }
+  },
+  {
+    "platform": "didi_food",
+    "address_id": "addr_03",
+    "address_name": "Roma Norte - Alto Ingreso",
+    "address_full": "Av. Álvaro Obregón 200, Roma Norte, Cuauhtémoc, 06700 CDMX",
+    "zone_type": "premium",
+    "coordinates": {
+      "lat": 19.4195,
+      "lng": -99.162
+    },
+    "timestamp": "2026-04-14_04-07-28",
+    "restaurants": [],
+    "products": [],
+    "fees": {},
+    "promotions": [],
+    "errors": [
+      "Tienda no encontrada: McDonald's",
+      "Tienda no encontrada: Burger King",
+      "Tienda no encontrada: OXXO / Tienda de conveniencia"
+    ],
+    "metadata": {
+      "scraping_completed": true,
+      "blocked": false
+    }
+  }
+]

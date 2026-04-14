@@ -1,0 +1,3409 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-10_07-41-37",
+    "platforms": [
+      "rappi",
+      "uber_eats",
+      "didi_food"
+    ],
+    "total_records": 90
+  },
+  "results": {
+    "rappi": [
+      {
+        "platform": "rappi",
+        "address_id": "addr_01",
+        "address_name": "Polanco - Alto Ingreso",
+        "address_full": "Av. Presidente Masaryk 393, Polanco, Miguel Hidalgo, 11550 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4328,
+          "lng": -99.1903
+        },
+        "timestamp": "2026-04-02_22-58-14",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_02",
+        "address_name": "Condesa - Alto Ingreso",
+        "address_full": "Av. Tamaulipas 100, Condesa, Cuauhtémoc, 06140 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4115,
+          "lng": -99.1733
+        },
+        "timestamp": "2026-04-02_23-02-52",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_03",
+        "address_name": "Roma Norte - Alto Ingreso",
+        "address_full": "Av. Álvaro Obregón 200, Roma Norte, Cuauhtémoc, 06700 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4195,
+          "lng": -99.162
+        },
+        "timestamp": "2026-04-02_23-08-46",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_04",
+        "address_name": "Santa Fe - Alto Ingreso/Corporativo",
+        "address_full": "Centro Comercial Santa Fe, Av. Vasco de Quiroga 3800, Santa Fe, 05109 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.359,
+          "lng": -99.276
+        },
+        "timestamp": "2026-04-02_23-13-29",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_05",
+        "address_name": "Lomas de Chapultepec - Alto Ingreso",
+        "address_full": "Palmas 781, Lomas de Chapultepec, Miguel Hidalgo, 11000 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.423,
+          "lng": -99.218
+        },
+        "timestamp": "2026-04-02_23-18-36",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_06",
+        "address_name": "Del Valle Centro - Clase Media Alta",
+        "address_full": "Av. Insurgentes Sur 1457, Del Valle Centro, Benito Juárez, 03100 CDMX",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.387,
+          "lng": -99.177
+        },
+        "timestamp": "2026-04-02_23-23-38",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_07",
+        "address_name": "Narvarte - Clase Media",
+        "address_full": "Av. Universidad 815, Narvarte Poniente, Benito Juárez, 03020 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.395,
+          "lng": -99.16
+        },
+        "timestamp": "2026-04-02_23-28-32",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_08",
+        "address_name": "Coyoacán Centro - Clase Media",
+        "address_full": "Jardín Centenario, Coyoacán, 04000 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.35,
+          "lng": -99.162
+        },
+        "timestamp": "2026-04-02_23-33-31",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_09",
+        "address_name": "Tlalpan Centro - Clase Media",
+        "address_full": "Calz. de Tlalpan 4585, Tlalpan Centro, 14000 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.286,
+          "lng": -99.169
+        },
+        "timestamp": "2026-04-02_23-38-21",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_10",
+        "address_name": "Coapa - Clase Media",
+        "address_full": "Canal de Miramontes 3855, Coapa, Coyoacán, 04890 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.303,
+          "lng": -99.134
+        },
+        "timestamp": "2026-04-02_23-41-44",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_11",
+        "address_name": "Reforma - Zona de Oficinas",
+        "address_full": "Paseo de la Reforma 222, Juárez, Cuauhtémoc, 06600 CDMX",
+        "zone_type": "business",
+        "coordinates": {
+          "lat": 19.427,
+          "lng": -99.163
+        },
+        "timestamp": "2026-04-02_23-46-45",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_12",
+        "address_name": "Insurgentes Sur - Zona de Oficinas",
+        "address_full": "Av. Insurgentes Sur 688, Del Valle, 03100 CDMX",
+        "zone_type": "business",
+        "coordinates": {
+          "lat": 19.392,
+          "lng": -99.174
+        },
+        "timestamp": "2026-04-02_23-51-28",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_13",
+        "address_name": "Centro Histórico",
+        "address_full": "Calle 5 de Mayo 10, Centro Histórico, Cuauhtémoc, 06000 CDMX",
+        "zone_type": "commercial",
+        "coordinates": {
+          "lat": 19.434,
+          "lng": -99.137
+        },
+        "timestamp": "2026-04-02_23-55-49",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_14",
+        "address_name": "Zona Rosa",
+        "address_full": "Amberes 12, Juárez, Cuauhtémoc, 06600 CDMX",
+        "zone_type": "commercial",
+        "coordinates": {
+          "lat": 19.427,
+          "lng": -99.156
+        },
+        "timestamp": "2026-04-03_01-25-32",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_15",
+        "address_name": "Lindavista - Clase Media",
+        "address_full": "Av. Montevideo 363, Lindavista, Gustavo A. Madero, 07300 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.488,
+          "lng": -99.128
+        },
+        "timestamp": "2026-04-03_01-53-09",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_16",
+        "address_name": "Pedregal - Alto Ingreso",
+        "address_full": "Periférico Sur 3720, Jardines del Pedregal, Coyoacán, 04500 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.325,
+          "lng": -99.193
+        },
+        "timestamp": "2026-04-03_01-57-51",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_17",
+        "address_name": "Iztapalapa Centro - Popular",
+        "address_full": "Av. Ermita Iztapalapa 3500, Iztapalapa, 09360 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.358,
+          "lng": -99.093
+        },
+        "timestamp": "2026-04-03_02-02-37",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_18",
+        "address_name": "Tepito - Popular",
+        "address_full": "Eje 1 Norte 50, Morelos, Cuauhtémoc, 06200 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.443,
+          "lng": -99.128
+        },
+        "timestamp": "2026-04-03_02-07-13",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_19",
+        "address_name": "Ciudad Neza - Periférica",
+        "address_full": "Av. Chimalhuacán 145, Nezahualcóyotl, Estado de México",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.401,
+          "lng": -99.028
+        },
+        "timestamp": "2026-04-03_03-10-21",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_20",
+        "address_name": "Ecatepec - Periférica",
+        "address_full": "Av. Central 25, Ecatepec de Morelos, Estado de México",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.601,
+          "lng": -99.05
+        },
+        "timestamp": "2026-04-03_18-12-51",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_21",
+        "address_name": "Satélite - Clase Media Alta",
+        "address_full": "Circuito Centro Comercial 2251, Ciudad Satélite, Naucalpan, Estado de México",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.509,
+          "lng": -99.234
+        },
+        "timestamp": "2026-04-03_18-17-28",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_22",
+        "address_name": "Interlomas - Alto Ingreso",
+        "address_full": "Av. Jesús del Monte 41, Interlomas, Huixquilucan, Estado de México",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.396,
+          "lng": -99.289
+        },
+        "timestamp": "2026-04-03_18-22-15",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_23",
+        "address_name": "Universidad - Estudiantil",
+        "address_full": "Av. Universidad 3000, UNAM, Coyoacán, 04510 CDMX",
+        "zone_type": "university",
+        "coordinates": {
+          "lat": 19.332,
+          "lng": -99.187
+        },
+        "timestamp": "2026-04-03_18-26-50",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_24",
+        "address_name": "IPN Zacatenco - Estudiantil",
+        "address_full": "Av. Instituto Politécnico Nacional 2508, Gustavo A. Madero, 07360 CDMX",
+        "zone_type": "university",
+        "coordinates": {
+          "lat": 19.5,
+          "lng": -99.135
+        },
+        "timestamp": "2026-04-03_18-31-23",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_25",
+        "address_name": "Azcapotzalco - Clase Media Baja",
+        "address_full": "Av. Azcapotzalco 455, Azcapotzalco, 02000 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.484,
+          "lng": -99.184
+        },
+        "timestamp": "2026-04-03_18-36-03",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_26",
+        "address_name": "Xochimilco - Periférica",
+        "address_full": "Av. Guadalupe I. Ramírez 505, Xochimilco, 16090 CDMX",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.262,
+          "lng": -99.104
+        },
+        "timestamp": "2026-04-03_18-40-40",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_27",
+        "address_name": "Tacubaya - Clase Media",
+        "address_full": "Av. Jalisco 117, Tacubaya, Miguel Hidalgo, 11870 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.402,
+          "lng": -99.197
+        },
+        "timestamp": "2026-04-03_18-45-27",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": "11-14 min",
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_28",
+        "address_name": "Mixcoac - Clase Media",
+        "address_full": "Av. Revolución 1500, Mixcoac, Benito Juárez, 03910 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.374,
+          "lng": -99.188
+        },
+        "timestamp": "2026-04-04_00-01-45",
+        "restaurants": [],
+        "products": [
+          {
+            "store_name": "Burger King",
+            "platform": "rappi",
+            "available": true,
+            "estimated_delivery_time": null,
+            "rating": null,
+            "products": [
+              {
+                "product_id": "ff_04",
+                "product_name": "Whopper",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              },
+              {
+                "product_id": "ff_05",
+                "product_name": "Combo Whopper Mediano",
+                "found": false,
+                "price": null,
+                "original_price": null,
+                "discount": null,
+                "available": false
+              }
+            ]
+          }
+        ],
+        "fees": {
+          "Burger King": {
+            "delivery_fee": 0.0,
+            "service_fee": null,
+            "small_order_fee": null,
+            "free_delivery": true
+          }
+        },
+        "promotions": [
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Envío Gratis: Aplican TyC"
+          },
+          {
+            "platform": "rappi",
+            "type": "discount",
+            "description": "Gratis: Aplican TyC"
+          }
+        ],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_29",
+        "address_name": "Tláhuac - Periférica",
+        "address_full": "Calz. Tláhuac-Chalco 14, Tláhuac, 13000 CDMX",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.286,
+          "lng": -99.005
+        },
+        "timestamp": "2026-04-06_03-41-10",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "rappi",
+        "address_id": "addr_30",
+        "address_name": "Cuajimalpa - Clase Media Alta",
+        "address_full": "Av. México 35, Cuajimalpa, 05000 CDMX",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.355,
+          "lng": -99.299
+        },
+        "timestamp": "2026-04-06_03-42-46",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      }
+    ],
+    "uber_eats": [
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_01",
+        "address_name": "Polanco - Alto Ingreso",
+        "address_full": "Av. Presidente Masaryk 393, Polanco, Miguel Hidalgo, 11550 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4328,
+          "lng": -99.1903
+        },
+        "timestamp": "2026-04-06_03-46-02",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_02",
+        "address_name": "Condesa - Alto Ingreso",
+        "address_full": "Av. Tamaulipas 100, Condesa, Cuauhtémoc, 06140 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4115,
+          "lng": -99.1733
+        },
+        "timestamp": "2026-04-06_03-48-20",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_03",
+        "address_name": "Roma Norte - Alto Ingreso",
+        "address_full": "Av. Álvaro Obregón 200, Roma Norte, Cuauhtémoc, 06700 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4195,
+          "lng": -99.162
+        },
+        "timestamp": "2026-04-06_03-50-36",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_04",
+        "address_name": "Santa Fe - Alto Ingreso/Corporativo",
+        "address_full": "Centro Comercial Santa Fe, Av. Vasco de Quiroga 3800, Santa Fe, 05109 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.359,
+          "lng": -99.276
+        },
+        "timestamp": "2026-04-06_03-52-32",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_05",
+        "address_name": "Lomas de Chapultepec - Alto Ingreso",
+        "address_full": "Palmas 781, Lomas de Chapultepec, Miguel Hidalgo, 11000 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.423,
+          "lng": -99.218
+        },
+        "timestamp": "2026-04-06_03-54-51",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_06",
+        "address_name": "Del Valle Centro - Clase Media Alta",
+        "address_full": "Av. Insurgentes Sur 1457, Del Valle Centro, Benito Juárez, 03100 CDMX",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.387,
+          "lng": -99.177
+        },
+        "timestamp": "2026-04-06_03-57-09",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_07",
+        "address_name": "Narvarte - Clase Media",
+        "address_full": "Av. Universidad 815, Narvarte Poniente, Benito Juárez, 03020 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.395,
+          "lng": -99.16
+        },
+        "timestamp": "2026-04-06_03-59-25",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_08",
+        "address_name": "Coyoacán Centro - Clase Media",
+        "address_full": "Jardín Centenario, Coyoacán, 04000 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.35,
+          "lng": -99.162
+        },
+        "timestamp": "2026-04-06_04-01-39",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_09",
+        "address_name": "Tlalpan Centro - Clase Media",
+        "address_full": "Calz. de Tlalpan 4585, Tlalpan Centro, 14000 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.286,
+          "lng": -99.169
+        },
+        "timestamp": "2026-04-06_04-03-57",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_10",
+        "address_name": "Coapa - Clase Media",
+        "address_full": "Canal de Miramontes 3855, Coapa, Coyoacán, 04890 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.303,
+          "lng": -99.134
+        },
+        "timestamp": "2026-04-06_04-06-13",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_11",
+        "address_name": "Reforma - Zona de Oficinas",
+        "address_full": "Paseo de la Reforma 222, Juárez, Cuauhtémoc, 06600 CDMX",
+        "zone_type": "business",
+        "coordinates": {
+          "lat": 19.427,
+          "lng": -99.163
+        },
+        "timestamp": "2026-04-06_04-08-27",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_12",
+        "address_name": "Insurgentes Sur - Zona de Oficinas",
+        "address_full": "Av. Insurgentes Sur 688, Del Valle, 03100 CDMX",
+        "zone_type": "business",
+        "coordinates": {
+          "lat": 19.392,
+          "lng": -99.174
+        },
+        "timestamp": "2026-04-06_04-10-41",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_13",
+        "address_name": "Centro Histórico",
+        "address_full": "Calle 5 de Mayo 10, Centro Histórico, Cuauhtémoc, 06000 CDMX",
+        "zone_type": "commercial",
+        "coordinates": {
+          "lat": 19.434,
+          "lng": -99.137
+        },
+        "timestamp": "2026-04-06_04-12-57",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_14",
+        "address_name": "Zona Rosa",
+        "address_full": "Amberes 12, Juárez, Cuauhtémoc, 06600 CDMX",
+        "zone_type": "commercial",
+        "coordinates": {
+          "lat": 19.427,
+          "lng": -99.156
+        },
+        "timestamp": "2026-04-06_04-15-13",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_15",
+        "address_name": "Lindavista - Clase Media",
+        "address_full": "Av. Montevideo 363, Lindavista, Gustavo A. Madero, 07300 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.488,
+          "lng": -99.128
+        },
+        "timestamp": "2026-04-06_04-17-32",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_16",
+        "address_name": "Pedregal - Alto Ingreso",
+        "address_full": "Periférico Sur 3720, Jardines del Pedregal, Coyoacán, 04500 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.325,
+          "lng": -99.193
+        },
+        "timestamp": "2026-04-06_04-19-51",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_17",
+        "address_name": "Iztapalapa Centro - Popular",
+        "address_full": "Av. Ermita Iztapalapa 3500, Iztapalapa, 09360 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.358,
+          "lng": -99.093
+        },
+        "timestamp": "2026-04-06_04-22-02",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_18",
+        "address_name": "Tepito - Popular",
+        "address_full": "Eje 1 Norte 50, Morelos, Cuauhtémoc, 06200 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.443,
+          "lng": -99.128
+        },
+        "timestamp": "2026-04-06_04-24-18",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_19",
+        "address_name": "Ciudad Neza - Periférica",
+        "address_full": "Av. Chimalhuacán 145, Nezahualcóyotl, Estado de México",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.401,
+          "lng": -99.028
+        },
+        "timestamp": "2026-04-06_04-26-36",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_20",
+        "address_name": "Ecatepec - Periférica",
+        "address_full": "Av. Central 25, Ecatepec de Morelos, Estado de México",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.601,
+          "lng": -99.05
+        },
+        "timestamp": "2026-04-06_04-28-57",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_21",
+        "address_name": "Satélite - Clase Media Alta",
+        "address_full": "Circuito Centro Comercial 2251, Ciudad Satélite, Naucalpan, Estado de México",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.509,
+          "lng": -99.234
+        },
+        "timestamp": "2026-04-06_04-31-16",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_22",
+        "address_name": "Interlomas - Alto Ingreso",
+        "address_full": "Av. Jesús del Monte 41, Interlomas, Huixquilucan, Estado de México",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.396,
+          "lng": -99.289
+        },
+        "timestamp": "2026-04-06_04-33-36",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_23",
+        "address_name": "Universidad - Estudiantil",
+        "address_full": "Av. Universidad 3000, UNAM, Coyoacán, 04510 CDMX",
+        "zone_type": "university",
+        "coordinates": {
+          "lat": 19.332,
+          "lng": -99.187
+        },
+        "timestamp": "2026-04-06_04-35-53",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_24",
+        "address_name": "IPN Zacatenco - Estudiantil",
+        "address_full": "Av. Instituto Politécnico Nacional 2508, Gustavo A. Madero, 07360 CDMX",
+        "zone_type": "university",
+        "coordinates": {
+          "lat": 19.5,
+          "lng": -99.135
+        },
+        "timestamp": "2026-04-06_04-38-09",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_25",
+        "address_name": "Azcapotzalco - Clase Media Baja",
+        "address_full": "Av. Azcapotzalco 455, Azcapotzalco, 02000 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.484,
+          "lng": -99.184
+        },
+        "timestamp": "2026-04-06_04-40-42",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_26",
+        "address_name": "Xochimilco - Periférica",
+        "address_full": "Av. Guadalupe I. Ramírez 505, Xochimilco, 16090 CDMX",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.262,
+          "lng": -99.104
+        },
+        "timestamp": "2026-04-06_04-47-30",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "No se pudo acceder a la plataforma"
+        ],
+        "metadata": {}
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_27",
+        "address_name": "Tacubaya - Clase Media",
+        "address_full": "Av. Jalisco 117, Tacubaya, Miguel Hidalgo, 11870 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.402,
+          "lng": -99.197
+        },
+        "timestamp": "2026-04-10_12-17-56",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "No se pudo acceder a la plataforma"
+        ],
+        "metadata": {}
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_28",
+        "address_name": "Mixcoac - Clase Media",
+        "address_full": "Av. Revolución 1500, Mixcoac, Benito Juárez, 03910 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.374,
+          "lng": -99.188
+        },
+        "timestamp": "2026-04-10_12-18-31",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "No se pudo acceder a la plataforma"
+        ],
+        "metadata": {}
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_29",
+        "address_name": "Tláhuac - Periférica",
+        "address_full": "Calz. Tláhuac-Chalco 14, Tláhuac, 13000 CDMX",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.286,
+          "lng": -99.005
+        },
+        "timestamp": "2026-04-10_12-19-18",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "No se pudo acceder a la plataforma"
+        ],
+        "metadata": {}
+      },
+      {
+        "platform": "uber_eats",
+        "address_id": "addr_30",
+        "address_name": "Cuajimalpa - Clase Media Alta",
+        "address_full": "Av. México 35, Cuajimalpa, 05000 CDMX",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.355,
+          "lng": -99.299
+        },
+        "timestamp": "2026-04-10_12-20-34",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "No se pudo acceder a la plataforma"
+        ],
+        "metadata": {}
+      }
+    ],
+    "didi_food": [
+      {
+        "platform": "didi_food",
+        "address_id": "addr_01",
+        "address_name": "Polanco - Alto Ingreso",
+        "address_full": "Av. Presidente Masaryk 393, Polanco, Miguel Hidalgo, 11550 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4328,
+          "lng": -99.1903
+        },
+        "timestamp": "2026-04-10_12-21-10",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "No se pudo acceder a la plataforma"
+        ],
+        "metadata": {}
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_02",
+        "address_name": "Condesa - Alto Ingreso",
+        "address_full": "Av. Tamaulipas 100, Condesa, Cuauhtémoc, 06140 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4115,
+          "lng": -99.1733
+        },
+        "timestamp": "2026-04-10_12-22-39",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_03",
+        "address_name": "Roma Norte - Alto Ingreso",
+        "address_full": "Av. Álvaro Obregón 200, Roma Norte, Cuauhtémoc, 06700 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.4195,
+          "lng": -99.162
+        },
+        "timestamp": "2026-04-10_12-23-23",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_04",
+        "address_name": "Santa Fe - Alto Ingreso/Corporativo",
+        "address_full": "Centro Comercial Santa Fe, Av. Vasco de Quiroga 3800, Santa Fe, 05109 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.359,
+          "lng": -99.276
+        },
+        "timestamp": "2026-04-10_12-24-00",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_05",
+        "address_name": "Lomas de Chapultepec - Alto Ingreso",
+        "address_full": "Palmas 781, Lomas de Chapultepec, Miguel Hidalgo, 11000 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.423,
+          "lng": -99.218
+        },
+        "timestamp": "2026-04-10_12-24-38",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_06",
+        "address_name": "Del Valle Centro - Clase Media Alta",
+        "address_full": "Av. Insurgentes Sur 1457, Del Valle Centro, Benito Juárez, 03100 CDMX",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.387,
+          "lng": -99.177
+        },
+        "timestamp": "2026-04-10_12-25-16",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_07",
+        "address_name": "Narvarte - Clase Media",
+        "address_full": "Av. Universidad 815, Narvarte Poniente, Benito Juárez, 03020 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.395,
+          "lng": -99.16
+        },
+        "timestamp": "2026-04-10_12-25-52",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_08",
+        "address_name": "Coyoacán Centro - Clase Media",
+        "address_full": "Jardín Centenario, Coyoacán, 04000 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.35,
+          "lng": -99.162
+        },
+        "timestamp": "2026-04-10_12-26-26",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_09",
+        "address_name": "Tlalpan Centro - Clase Media",
+        "address_full": "Calz. de Tlalpan 4585, Tlalpan Centro, 14000 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.286,
+          "lng": -99.169
+        },
+        "timestamp": "2026-04-10_12-27-03",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_10",
+        "address_name": "Coapa - Clase Media",
+        "address_full": "Canal de Miramontes 3855, Coapa, Coyoacán, 04890 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.303,
+          "lng": -99.134
+        },
+        "timestamp": "2026-04-10_12-27-39",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_11",
+        "address_name": "Reforma - Zona de Oficinas",
+        "address_full": "Paseo de la Reforma 222, Juárez, Cuauhtémoc, 06600 CDMX",
+        "zone_type": "business",
+        "coordinates": {
+          "lat": 19.427,
+          "lng": -99.163
+        },
+        "timestamp": "2026-04-10_12-28-21",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_12",
+        "address_name": "Insurgentes Sur - Zona de Oficinas",
+        "address_full": "Av. Insurgentes Sur 688, Del Valle, 03100 CDMX",
+        "zone_type": "business",
+        "coordinates": {
+          "lat": 19.392,
+          "lng": -99.174
+        },
+        "timestamp": "2026-04-10_12-28-58",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_13",
+        "address_name": "Centro Histórico",
+        "address_full": "Calle 5 de Mayo 10, Centro Histórico, Cuauhtémoc, 06000 CDMX",
+        "zone_type": "commercial",
+        "coordinates": {
+          "lat": 19.434,
+          "lng": -99.137
+        },
+        "timestamp": "2026-04-10_12-29-40",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_14",
+        "address_name": "Zona Rosa",
+        "address_full": "Amberes 12, Juárez, Cuauhtémoc, 06600 CDMX",
+        "zone_type": "commercial",
+        "coordinates": {
+          "lat": 19.427,
+          "lng": -99.156
+        },
+        "timestamp": "2026-04-10_12-30-17",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_15",
+        "address_name": "Lindavista - Clase Media",
+        "address_full": "Av. Montevideo 363, Lindavista, Gustavo A. Madero, 07300 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.488,
+          "lng": -99.128
+        },
+        "timestamp": "2026-04-10_12-30-53",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_16",
+        "address_name": "Pedregal - Alto Ingreso",
+        "address_full": "Periférico Sur 3720, Jardines del Pedregal, Coyoacán, 04500 CDMX",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.325,
+          "lng": -99.193
+        },
+        "timestamp": "2026-04-10_12-31-34",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_17",
+        "address_name": "Iztapalapa Centro - Popular",
+        "address_full": "Av. Ermita Iztapalapa 3500, Iztapalapa, 09360 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.358,
+          "lng": -99.093
+        },
+        "timestamp": "2026-04-10_12-32-10",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_18",
+        "address_name": "Tepito - Popular",
+        "address_full": "Eje 1 Norte 50, Morelos, Cuauhtémoc, 06200 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.443,
+          "lng": -99.128
+        },
+        "timestamp": "2026-04-10_12-32-48",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_19",
+        "address_name": "Ciudad Neza - Periférica",
+        "address_full": "Av. Chimalhuacán 145, Nezahualcóyotl, Estado de México",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.401,
+          "lng": -99.028
+        },
+        "timestamp": "2026-04-10_12-33-22",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_20",
+        "address_name": "Ecatepec - Periférica",
+        "address_full": "Av. Central 25, Ecatepec de Morelos, Estado de México",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.601,
+          "lng": -99.05
+        },
+        "timestamp": "2026-04-10_12-34-37",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_21",
+        "address_name": "Satélite - Clase Media Alta",
+        "address_full": "Circuito Centro Comercial 2251, Ciudad Satélite, Naucalpan, Estado de México",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.509,
+          "lng": -99.234
+        },
+        "timestamp": "2026-04-10_12-35-15",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_22",
+        "address_name": "Interlomas - Alto Ingreso",
+        "address_full": "Av. Jesús del Monte 41, Interlomas, Huixquilucan, Estado de México",
+        "zone_type": "premium",
+        "coordinates": {
+          "lat": 19.396,
+          "lng": -99.289
+        },
+        "timestamp": "2026-04-10_12-35-53",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_23",
+        "address_name": "Universidad - Estudiantil",
+        "address_full": "Av. Universidad 3000, UNAM, Coyoacán, 04510 CDMX",
+        "zone_type": "university",
+        "coordinates": {
+          "lat": 19.332,
+          "lng": -99.187
+        },
+        "timestamp": "2026-04-10_12-36-32",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_24",
+        "address_name": "IPN Zacatenco - Estudiantil",
+        "address_full": "Av. Instituto Politécnico Nacional 2508, Gustavo A. Madero, 07360 CDMX",
+        "zone_type": "university",
+        "coordinates": {
+          "lat": 19.5,
+          "lng": -99.135
+        },
+        "timestamp": "2026-04-10_12-37-11",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_25",
+        "address_name": "Azcapotzalco - Clase Media Baja",
+        "address_full": "Av. Azcapotzalco 455, Azcapotzalco, 02000 CDMX",
+        "zone_type": "popular",
+        "coordinates": {
+          "lat": 19.484,
+          "lng": -99.184
+        },
+        "timestamp": "2026-04-10_12-37-50",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_26",
+        "address_name": "Xochimilco - Periférica",
+        "address_full": "Av. Guadalupe I. Ramírez 505, Xochimilco, 16090 CDMX",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.262,
+          "lng": -99.104
+        },
+        "timestamp": "2026-04-10_12-38-31",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_27",
+        "address_name": "Tacubaya - Clase Media",
+        "address_full": "Av. Jalisco 117, Tacubaya, Miguel Hidalgo, 11870 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.402,
+          "lng": -99.197
+        },
+        "timestamp": "2026-04-10_12-39-10",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_28",
+        "address_name": "Mixcoac - Clase Media",
+        "address_full": "Av. Revolución 1500, Mixcoac, Benito Juárez, 03910 CDMX",
+        "zone_type": "middle",
+        "coordinates": {
+          "lat": 19.374,
+          "lng": -99.188
+        },
+        "timestamp": "2026-04-10_12-39-46",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_29",
+        "address_name": "Tláhuac - Periférica",
+        "address_full": "Calz. Tláhuac-Chalco 14, Tláhuac, 13000 CDMX",
+        "zone_type": "peripheral",
+        "coordinates": {
+          "lat": 19.286,
+          "lng": -99.005
+        },
+        "timestamp": "2026-04-10_12-40-24",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      },
+      {
+        "platform": "didi_food",
+        "address_id": "addr_30",
+        "address_name": "Cuajimalpa - Clase Media Alta",
+        "address_full": "Av. México 35, Cuajimalpa, 05000 CDMX",
+        "zone_type": "middle_high",
+        "coordinates": {
+          "lat": 19.355,
+          "lng": -99.299
+        },
+        "timestamp": "2026-04-10_12-41-01",
+        "restaurants": [],
+        "products": [],
+        "fees": {},
+        "promotions": [],
+        "errors": [
+          "Tienda no encontrada: McDonald's",
+          "Tienda no encontrada: Burger King",
+          "Tienda no encontrada: OXXO / Tienda de conveniencia"
+        ],
+        "metadata": {
+          "scraping_completed": true,
+          "blocked": false
+        }
+      }
+    ]
+  }
+}

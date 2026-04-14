@@ -1,0 +1,739 @@
+{
+  "summary": {
+    "platforms_analyzed": [
+      "rappi",
+      "uber_eats",
+      "didi_food"
+    ],
+    "total_addresses": 30,
+    "data_coverage": {
+      "rappi": {
+        "total_addresses": 30,
+        "successful_scrapes": 18,
+        "success_rate": 60.0,
+        "products_found": 194
+      },
+      "uber_eats": {
+        "total_addresses": 30,
+        "successful_scrapes": 12,
+        "success_rate": 40.0,
+        "products_found": 180
+      },
+      "didi_food": {
+        "total_addresses": 30,
+        "successful_scrapes": 12,
+        "success_rate": 40.0,
+        "products_found": 190
+      }
+    }
+  },
+  "price_comparison": {
+    "McDonald's|Big Mac": {
+      "store": "McDonald's",
+      "product": "Big Mac",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 103.07,
+          "min": 79.1,
+          "max": 123.47,
+          "median": 106.05,
+          "count": 24
+        },
+        "uber_eats": {
+          "avg": 102.75,
+          "min": 77.22,
+          "max": 126.69,
+          "median": 101.73,
+          "count": 19
+        },
+        "didi_food": {
+          "avg": 94.18,
+          "min": 68.22,
+          "max": 120.13,
+          "median": 89.73,
+          "count": 29
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 9.4
+    },
+    "McDonald's|Combo Mediano Big Mac": {
+      "store": "McDonald's",
+      "product": "Combo Mediano Big Mac",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 174.8,
+          "min": 139.24,
+          "max": 219.26,
+          "median": 175.75,
+          "count": 24
+        },
+        "uber_eats": {
+          "avg": 169.9,
+          "min": 134.24,
+          "max": 199.7,
+          "median": 172.8,
+          "count": 19
+        },
+        "didi_food": {
+          "avg": 159.91,
+          "min": 126.82,
+          "max": 197.39,
+          "median": 161.88,
+          "count": 29
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 9.3
+    },
+    "McDonald's|McNuggets 10 piezas": {
+      "store": "McDonald's",
+      "product": "McNuggets 10 piezas",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 117.48,
+          "min": 85.99,
+          "max": 140.94,
+          "median": 123.27,
+          "count": 24
+        },
+        "uber_eats": {
+          "avg": 112.15,
+          "min": 89.41,
+          "max": 137.99,
+          "median": 108.73,
+          "count": 19
+        },
+        "didi_food": {
+          "avg": 108.47,
+          "min": 77.38,
+          "max": 138.25,
+          "median": 108.89,
+          "count": 29
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 8.3
+    },
+    "Burger King|Whopper": {
+      "store": "Burger King",
+      "product": "Whopper",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 114.43,
+          "min": 90.91,
+          "max": 142.15,
+          "median": 112.3,
+          "count": 25
+        },
+        "uber_eats": {
+          "avg": 104.28,
+          "min": 78.42,
+          "max": 124.04,
+          "median": 103.41,
+          "count": 24
+        },
+        "didi_food": {
+          "avg": 100.51,
+          "min": 74.44,
+          "max": 131.89,
+          "median": 95.77,
+          "count": 23
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 13.8
+    },
+    "Burger King|Combo Whopper Mediano": {
+      "store": "Burger King",
+      "product": "Combo Whopper Mediano",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 179.12,
+          "min": 149.07,
+          "max": 228.56,
+          "median": 167.67,
+          "count": 25
+        },
+        "uber_eats": {
+          "avg": 177.08,
+          "min": 126.74,
+          "max": 213.62,
+          "median": 177.45,
+          "count": 24
+        },
+        "didi_food": {
+          "avg": 173.61,
+          "min": 130.07,
+          "max": 217.95,
+          "median": 169.04,
+          "count": 23
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 3.2
+    },
+    "OXXO / Tienda de conveniencia|Coca-Cola 500ml": {
+      "store": "OXXO / Tienda de conveniencia",
+      "product": "Coca-Cola 500ml",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 26.06,
+          "min": 15.89,
+          "max": 37.73,
+          "median": 24.88,
+          "count": 24
+        },
+        "uber_eats": {
+          "avg": 26.49,
+          "min": 17.24,
+          "max": 35.43,
+          "median": 26.6,
+          "count": 25
+        },
+        "didi_food": {
+          "avg": 23.75,
+          "min": 15.8,
+          "max": 31.35,
+          "median": 23.83,
+          "count": 19
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "uber_eats",
+      "rappi_position": "2/3",
+      "price_spread_pct": 11.5
+    },
+    "OXXO / Tienda de conveniencia|Agua embotellada 1L": {
+      "store": "OXXO / Tienda de conveniencia",
+      "product": "Agua embotellada 1L",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 20.54,
+          "min": 11.87,
+          "max": 31.18,
+          "median": 20.27,
+          "count": 24
+        },
+        "uber_eats": {
+          "avg": 19.87,
+          "min": 10.58,
+          "max": 27.57,
+          "median": 19.21,
+          "count": 25
+        },
+        "didi_food": {
+          "avg": 16.43,
+          "min": 9.97,
+          "max": 25.51,
+          "median": 16.11,
+          "count": 19
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 25.0
+    },
+    "OXXO / Tienda de conveniencia|Pañales Huggies Ultra Confort": {
+      "store": "OXXO / Tienda de conveniencia",
+      "product": "Pañales Huggies Ultra Confort",
+      "prices_by_platform": {
+        "rappi": {
+          "avg": 265.65,
+          "min": 159.21,
+          "max": 397.3,
+          "median": 265.12,
+          "count": 24
+        },
+        "uber_eats": {
+          "avg": 264.01,
+          "min": 168.72,
+          "max": 370.23,
+          "median": 270.08,
+          "count": 25
+        },
+        "didi_food": {
+          "avg": 241.83,
+          "min": 178.74,
+          "max": 329.18,
+          "median": 228.97,
+          "count": 19
+        }
+      },
+      "cheapest_platform": "didi_food",
+      "most_expensive_platform": "rappi",
+      "rappi_position": "3/3",
+      "price_spread_pct": 9.8
+    }
+  },
+  "fee_comparison": {
+    "rappi": {
+      "delivery_fee": {
+        "avg": 29.03,
+        "min": 0.0,
+        "max": 60.6,
+        "median": 30.2,
+        "free_delivery_pct": 11.0,
+        "count": 73
+      },
+      "service_fee": {
+        "avg": 16.7,
+        "min": 9.15,
+        "max": 23.84,
+        "count": 73
+      }
+    },
+    "uber_eats": {
+      "delivery_fee": {
+        "avg": 23.6,
+        "min": 0.0,
+        "max": 50.17,
+        "median": 24.25,
+        "free_delivery_pct": 7.4,
+        "count": 68
+      },
+      "service_fee": {
+        "avg": 13.87,
+        "min": 7.43,
+        "max": 19.64,
+        "count": 68
+      }
+    },
+    "didi_food": {
+      "delivery_fee": {
+        "avg": 21.83,
+        "min": 0.0,
+        "max": 39.08,
+        "median": 23.96,
+        "free_delivery_pct": 5.6,
+        "count": 71
+      },
+      "service_fee": {
+        "avg": 12.15,
+        "min": 5.57,
+        "max": 17.95,
+        "count": 71
+      }
+    }
+  },
+  "delivery_time_comparison": {
+    "rappi": {
+      "avg_minutes": 33.7,
+      "min_minutes": 29.5,
+      "max_minutes": 43.5,
+      "median_minutes": 35,
+      "count": 73,
+      "by_zone": {
+        "premium": {
+          "avg": 29.5,
+          "count": 17
+        },
+        "middle_high": {
+          "avg": 31,
+          "count": 8
+        },
+        "middle": {
+          "avg": 35,
+          "count": 20
+        },
+        "business": {
+          "avg": 31,
+          "count": 5
+        },
+        "commercial": {
+          "avg": 32.5,
+          "count": 5
+        },
+        "popular": {
+          "avg": 38,
+          "count": 7
+        },
+        "peripheral": {
+          "avg": 43.5,
+          "count": 5
+        },
+        "university": {
+          "avg": 35,
+          "count": 6
+        }
+      }
+    },
+    "uber_eats": {
+      "avg_minutes": 29.3,
+      "min_minutes": 25.5,
+      "max_minutes": 37.5,
+      "median_minutes": 28.5,
+      "count": 68,
+      "by_zone": {
+        "premium": {
+          "avg": 25.5,
+          "count": 20
+        },
+        "middle_high": {
+          "avg": 27,
+          "count": 5
+        },
+        "middle": {
+          "avg": 30,
+          "count": 13
+        },
+        "business": {
+          "avg": 27,
+          "count": 5
+        },
+        "commercial": {
+          "avg": 28.5,
+          "count": 5
+        },
+        "popular": {
+          "avg": 33,
+          "count": 7
+        },
+        "peripheral": {
+          "avg": 37.5,
+          "count": 8
+        },
+        "university": {
+          "avg": 30,
+          "count": 5
+        }
+      }
+    },
+    "didi_food": {
+      "avg_minutes": 38.1,
+      "min_minutes": 32.5,
+      "max_minutes": 48.5,
+      "median_minutes": 39,
+      "count": 71,
+      "by_zone": {
+        "premium": {
+          "avg": 32.5,
+          "count": 16
+        },
+        "middle_high": {
+          "avg": 35,
+          "count": 7
+        },
+        "middle": {
+          "avg": 39,
+          "count": 17
+        },
+        "business": {
+          "avg": 35,
+          "count": 6
+        },
+        "commercial": {
+          "avg": 36.5,
+          "count": 4
+        },
+        "popular": {
+          "avg": 42.5,
+          "count": 8
+        },
+        "peripheral": {
+          "avg": 48.5,
+          "count": 8
+        },
+        "university": {
+          "avg": 39,
+          "count": 5
+        }
+      }
+    }
+  },
+  "promotion_analysis": {
+    "rappi": {
+      "total_promotions": 73,
+      "unique_promotions": 5,
+      "by_type": {
+        "promotion": 73
+      },
+      "sample_promotions": [
+        "2x1 en combos seleccionados",
+        "Rappi Prime: envío gratis ilimitado",
+        "Envío gratis en pedidos +$200",
+        "20% de descuento en tu primer pedido",
+        "$50 de descuento con código RAPPI50",
+        "Rappi Prime: envío gratis ilimitado",
+        "20% de descuento en tu primer pedido",
+        "20% de descuento en tu primer pedido",
+        "Envío gratis en pedidos +$200",
+        "20% de descuento en tu primer pedido"
+      ]
+    },
+    "uber_eats": {
+      "total_promotions": 122,
+      "unique_promotions": 6,
+      "by_type": {
+        "promotion": 122
+      },
+      "sample_promotions": [
+        "2x1 en McFlurry",
+        "Envío gratis en restaurantes seleccionados",
+        "30% off tu próximo pedido (máx $80)",
+        "Uber One: 5% de descuento + envío $0",
+        "$40 off con Uber One",
+        "Buy 1 Get 1 Free en combos",
+        "Uber One: 5% de descuento + envío $0",
+        "$40 off con Uber One",
+        "2x1 en McFlurry",
+        "30% off tu próximo pedido (máx $80)"
+      ]
+    },
+    "didi_food": {
+      "total_promotions": 45,
+      "unique_promotions": 3,
+      "by_type": {
+        "promotion": 45
+      },
+      "sample_promotions": [
+        "Combo especial desde $89",
+        "Envío gratis primera compra",
+        "15% descuento cupón DIDI15",
+        "Envío gratis primera compra",
+        "Combo especial desde $89",
+        "Combo especial desde $89",
+        "Envío gratis primera compra",
+        "15% descuento cupón DIDI15",
+        "Combo especial desde $89",
+        "Envío gratis primera compra"
+      ]
+    }
+  },
+  "geographic_analysis": {
+    "premium": {
+      "rappi": {
+        "avg_price": 143.86,
+        "avg_delivery_fee": 20.4,
+        "avg_delivery_time": 29.5,
+        "data_points": 45
+      },
+      "uber_eats": {
+        "avg_price": 136.68,
+        "avg_delivery_fee": 17.08,
+        "avg_delivery_time": 25.5,
+        "data_points": 53
+      },
+      "didi_food": {
+        "avg_price": 135.92,
+        "avg_delivery_fee": 17.96,
+        "avg_delivery_time": 32.5,
+        "data_points": 42
+      }
+    },
+    "middle_high": {
+      "rappi": {
+        "avg_price": 118.69,
+        "avg_delivery_fee": 28.22,
+        "avg_delivery_time": 31,
+        "data_points": 22
+      },
+      "uber_eats": {
+        "avg_price": 113.47,
+        "avg_delivery_fee": 21.24,
+        "avg_delivery_time": 27,
+        "data_points": 14
+      },
+      "didi_food": {
+        "avg_price": 121.02,
+        "avg_delivery_fee": 22.84,
+        "avg_delivery_time": 35,
+        "data_points": 18
+      }
+    },
+    "middle": {
+      "rappi": {
+        "avg_price": 123.82,
+        "avg_delivery_fee": 30.61,
+        "avg_delivery_time": 35,
+        "data_points": 53
+      },
+      "uber_eats": {
+        "avg_price": 118.81,
+        "avg_delivery_fee": 19.79,
+        "avg_delivery_time": 30,
+        "data_points": 35
+      },
+      "didi_food": {
+        "avg_price": 112.86,
+        "avg_delivery_fee": 21.87,
+        "avg_delivery_time": 39,
+        "data_points": 46
+      }
+    },
+    "business": {
+      "rappi": {
+        "avg_price": 137.21,
+        "avg_delivery_fee": 21.99,
+        "avg_delivery_time": 31,
+        "data_points": 13
+      },
+      "uber_eats": {
+        "avg_price": 129.98,
+        "avg_delivery_fee": 19.46,
+        "avg_delivery_time": 27,
+        "data_points": 13
+      },
+      "didi_food": {
+        "avg_price": 125.68,
+        "avg_delivery_fee": 25.05,
+        "avg_delivery_time": 35,
+        "data_points": 16
+      }
+    },
+    "commercial": {
+      "rappi": {
+        "avg_price": 130.09,
+        "avg_delivery_fee": 23.03,
+        "avg_delivery_time": 32.5,
+        "data_points": 13
+      },
+      "uber_eats": {
+        "avg_price": 130.44,
+        "avg_delivery_fee": 29.12,
+        "avg_delivery_time": 28.5,
+        "data_points": 13
+      },
+      "didi_food": {
+        "avg_price": 109.06,
+        "avg_delivery_fee": 15.66,
+        "avg_delivery_time": 36.5,
+        "data_points": 12
+      }
+    },
+    "popular": {
+      "rappi": {
+        "avg_price": 111.21,
+        "avg_delivery_fee": 40.83,
+        "avg_delivery_time": 38,
+        "data_points": 18
+      },
+      "uber_eats": {
+        "avg_price": 106.25,
+        "avg_delivery_fee": 27.78,
+        "avg_delivery_time": 33,
+        "data_points": 18
+      },
+      "didi_food": {
+        "avg_price": 104.11,
+        "avg_delivery_fee": 27.35,
+        "avg_delivery_time": 42.5,
+        "data_points": 21
+      }
+    },
+    "peripheral": {
+      "rappi": {
+        "avg_price": 92.8,
+        "avg_delivery_fee": 48.13,
+        "avg_delivery_time": 43.5,
+        "data_points": 14
+      },
+      "uber_eats": {
+        "avg_price": 97.0,
+        "avg_delivery_fee": 37.14,
+        "avg_delivery_time": 37.5,
+        "data_points": 21
+      },
+      "didi_food": {
+        "avg_price": 103.57,
+        "avg_delivery_fee": 24.75,
+        "avg_delivery_time": 48.5,
+        "data_points": 21
+      }
+    },
+    "university": {
+      "rappi": {
+        "avg_price": 118.61,
+        "avg_delivery_fee": 30.45,
+        "avg_delivery_time": 35,
+        "data_points": 16
+      },
+      "uber_eats": {
+        "avg_price": 115.17,
+        "avg_delivery_fee": 33.09,
+        "avg_delivery_time": 30,
+        "data_points": 13
+      },
+      "didi_food": {
+        "avg_price": 101.26,
+        "avg_delivery_fee": 20.25,
+        "avg_delivery_time": 39,
+        "data_points": 14
+      }
+    }
+  },
+  "availability_analysis": {
+    "rappi": {
+      "stores_found": 73,
+      "stores_not_found": 17,
+      "products_found": 194,
+      "products_not_found": 0,
+      "store_availability_rate": 81.1,
+      "product_availability_rate": 100.0
+    },
+    "uber_eats": {
+      "stores_found": 68,
+      "stores_not_found": 22,
+      "products_found": 180,
+      "products_not_found": 0,
+      "store_availability_rate": 75.6,
+      "product_availability_rate": 100.0
+    },
+    "didi_food": {
+      "stores_found": 71,
+      "stores_not_found": 19,
+      "products_found": 190,
+      "products_not_found": 0,
+      "store_availability_rate": 78.9,
+      "product_availability_rate": 100.0
+    }
+  },
+  "top_insights": [
+    {
+      "id": 1,
+      "category": "Pricing",
+      "finding": "Rappi es la plataforma más barata en 0/8 productos y la más cara en 7/8 productos analizados.",
+      "impact": "El posicionamiento de precios afecta directamente la conversión y retención de usuarios. En un mercado price-sensitive como México, cada punto porcentual de diferencia impacta el GMV.",
+      "recommendation": "Revisar la estrategia de markup por categoría. Para productos donde Rappi es más caro, evaluar negociación con merchants o ajuste de comisiones para cerrar la brecha de precios."
+    },
+    {
+      "id": 2,
+      "category": "Fees",
+      "finding": "Los delivery fees de Rappi son más altos que uber_eats, didi_food en promedio (18.7%, 24.8% respectivamente).",
+      "impact": "Los delivery fees son un factor decisivo en la elección de plataforma. Usuarios comparan fees antes de completar el pedido.",
+      "recommendation": "Considerar subsidiar delivery fees en zonas de alta competencia. Implementar delivery fee dinámico basado en la competencia local."
+    },
+    {
+      "id": 3,
+      "category": "Operations",
+      "finding": "Los tiempos de entrega de Rappi (34 min promedio) son más lentos que uber_eats (29 min).",
+      "impact": "Tiempos de entrega más largos reducen el NPS y la tasa de recompra. Cada minuto adicional incrementa la probabilidad de cancelación.",
+      "recommendation": "Optimizar asignación de repartidores en zonas con mayor diferencia. Considerar batching inteligente y rutas optimizadas con IA."
+    },
+    {
+      "id": 4,
+      "category": "Geographic Strategy",
+      "finding": "En zonas tipo 'commercial', Rappi es 19.3% más caro que didi_food. La competitividad varía significativamente por zona.",
+      "impact": "Las diferencias de precio por zona sugieren oportunidades de pricing localizado. Zonas periféricas y populares son más price-sensitive.",
+      "recommendation": "Implementar pricing diferenciado por zona. Priorizar subsidios en zonas tipo 'commercial' donde la brecha competitiva es mayor."
+    },
+    {
+      "id": 5,
+      "category": "Promotions",
+      "finding": "Rappi tiene 73 promociones visibles vs 122 de uber_eats. La competencia está siendo más agresiva en descuentos.",
+      "impact": "Las promociones visibles impactan directamente en la elección de plataforma al momento de abrir la app.",
+      "recommendation": "Aumentar visibilidad de promociones en home feed. Evaluar campañas de descuento focalizadas en categorías y zonas donde la competencia es más agresiva."
+    }
+  ]
+}

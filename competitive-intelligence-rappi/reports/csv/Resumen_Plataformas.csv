@@ -1,0 +1,4 @@
+﻿Plataforma,Delivery_Fee_Promedio,Service_Fee_Promedio,Envío_Gratis_%,Tiempo_Entrega_Promedio,Tiempo_Entrega_Min,Tiempo_Entrega_Max,Tiendas_Encontradas,Tasa_Disponibilidad_Tiendas_%,Tasa_Disponibilidad_Productos_%,Total_Promociones,Promociones_Únicas
+rappi,29.74,17.17,10.8,33.8,29.5,43.5,74,82.2,100.0,82,5
+uber_eats,23.81,13.61,11.3,29.6,25.5,37.5,71,78.9,100.0,127,6
+didi_food,20.2,11.32,12.0,37.8,32.5,48.5,75,83.3,100.0,34,3

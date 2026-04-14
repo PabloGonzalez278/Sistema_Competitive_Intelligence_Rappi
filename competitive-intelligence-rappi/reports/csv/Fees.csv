@@ -1,0 +1,221 @@
+﻿Plataforma,Dirección,Zona,Tienda,Delivery_Fee,Service_Fee,Small_Order_Fee,Envío_Gratis
+rappi,Polanco - Alto Ingreso,premium,McDonald's,37.09,18.86,,False
+rappi,Polanco - Alto Ingreso,premium,Burger King,27.53,16.46,,False
+rappi,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,19.92,23.99,,False
+rappi,Condesa - Alto Ingreso,premium,McDonald's,31.66,14.06,,False
+rappi,Condesa - Alto Ingreso,premium,Burger King,28.3,17.11,,False
+rappi,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,33.47,23.85,,False
+rappi,Roma Norte - Alto Ingreso,premium,McDonald's,0.0,19.83,,True
+rappi,Roma Norte - Alto Ingreso,premium,Burger King,22.73,24.12,,False
+rappi,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,27.92,13.44,,False
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,24.43,22.9,,False
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,33.06,15.79,,False
+rappi,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,16.89,19.61,,False
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,26.86,13.15,,False
+rappi,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,36.21,24.65,,False
+rappi,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,40.49,17.96,,False
+rappi,Del Valle Centro - Clase Media Alta,middle_high,Burger King,21.1,20.83,,False
+rappi,Narvarte - Clase Media,middle,McDonald's,44.85,21.46,,False
+rappi,Narvarte - Clase Media,middle,Burger King,28.29,20.24,,False
+rappi,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,39.98,19.55,,False
+rappi,Coyoacán Centro - Clase Media,middle,McDonald's,45.21,17.46,,False
+rappi,Coyoacán Centro - Clase Media,middle,Burger King,24.62,17.84,,False
+rappi,Tlalpan Centro - Clase Media,middle,McDonald's,24.94,12.93,,False
+rappi,Tlalpan Centro - Clase Media,middle,Burger King,48.99,9.14,,False
+rappi,Coapa - Clase Media,middle,McDonald's,48.87,13.54,,False
+rappi,Coapa - Clase Media,middle,Burger King,42.7,20.04,,False
+rappi,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,37.19,23.96,,False
+rappi,Reforma - Zona de Oficinas,business,McDonald's,23.04,24.15,,False
+rappi,Reforma - Zona de Oficinas,business,Burger King,35.15,11.06,,False
+rappi,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,23.08,23.19,,False
+rappi,Insurgentes Sur - Zona de Oficinas,business,McDonald's,17.58,18.22,,False
+rappi,Insurgentes Sur - Zona de Oficinas,business,Burger King,35.71,17.61,,False
+rappi,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,0.0,10.69,,True
+rappi,Centro Histórico,commercial,McDonald's,34.9,10.07,,False
+rappi,Centro Histórico,commercial,Burger King,45.08,19.38,,False
+rappi,Zona Rosa,commercial,McDonald's,24.39,24.96,,False
+rappi,Zona Rosa,commercial,Burger King,33.49,18.4,,False
+rappi,Zona Rosa,commercial,OXXO / Tienda de conveniencia,33.38,14.87,,False
+rappi,Lindavista - Clase Media,middle,McDonald's,23.24,13.08,,False
+rappi,Lindavista - Clase Media,middle,Burger King,21.96,10.12,,False
+rappi,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,44.66,24.64,,False
+rappi,Pedregal - Alto Ingreso,premium,McDonald's,18.63,17.08,,False
+rappi,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,33.32,9.3,,False
+rappi,Iztapalapa Centro - Popular,popular,McDonald's,45.63,21.28,,False
+rappi,Iztapalapa Centro - Popular,popular,Burger King,52.17,13.73,,False
+rappi,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,33.2,18.81,,False
+rappi,Tepito - Popular,popular,McDonald's,0.0,22.41,,True
+rappi,Tepito - Popular,popular,Burger King,29.33,21.57,,False
+rappi,Tepito - Popular,popular,OXXO / Tienda de conveniencia,25.7,11.06,,False
+rappi,Ciudad Neza - Periférica,peripheral,Burger King,56.45,19.69,,False
+rappi,Ecatepec - Periférica,peripheral,Burger King,32.94,12.43,,False
+rappi,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,0.0,17.92,,True
+rappi,Satélite - Clase Media Alta,middle_high,McDonald's,39.14,18.88,,False
+rappi,Satélite - Clase Media Alta,middle_high,Burger King,20.99,15.91,,False
+rappi,Interlomas - Alto Ingreso,premium,McDonald's,27.17,20.47,,False
+rappi,Interlomas - Alto Ingreso,premium,Burger King,0.0,14.78,,True
+rappi,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,35.36,14.5,,False
+rappi,Universidad - Estudiantil,university,McDonald's,31.77,20.02,,False
+rappi,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,42.14,14.84,,False
+rappi,IPN Zacatenco - Estudiantil,university,McDonald's,24.91,11.86,,False
+rappi,IPN Zacatenco - Estudiantil,university,Burger King,0.0,13.47,,True
+rappi,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,34.28,21.26,,False
+rappi,Azcapotzalco - Clase Media Baja,popular,McDonald's,41.24,10.34,,False
+rappi,Azcapotzalco - Clase Media Baja,popular,Burger King,39.81,16.79,,False
+rappi,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,42.84,21.58,,False
+rappi,Xochimilco - Periférica,peripheral,Burger King,55.62,12.31,,False
+rappi,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,27.45,11.73,,False
+rappi,Tacubaya - Clase Media,middle,McDonald's,40.93,10.93,,False
+rappi,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,34.78,10.37,,False
+rappi,Mixcoac - Clase Media,middle,McDonald's,0.0,22.3,,True
+rappi,Mixcoac - Clase Media,middle,Burger King,21.33,13.75,,False
+rappi,Tláhuac - Periférica,peripheral,Burger King,0.0,22.86,,True
+rappi,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,39.13,14.42,,False
+rappi,Cuajimalpa - Clase Media Alta,middle_high,Burger King,25.61,10.59,,False
+rappi,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,40.05,18.37,,False
+uber_eats,Polanco - Alto Ingreso,premium,McDonald's,0.0,9.16,,True
+uber_eats,Polanco - Alto Ingreso,premium,Burger King,16.07,10.73,,False
+uber_eats,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,28.36,9.64,,False
+uber_eats,Condesa - Alto Ingreso,premium,McDonald's,13.52,17.09,,False
+uber_eats,Roma Norte - Alto Ingreso,premium,McDonald's,21.39,12.11,,False
+uber_eats,Roma Norte - Alto Ingreso,premium,Burger King,13.94,17.79,,False
+uber_eats,Roma Norte - Alto Ingreso,premium,OXXO / Tienda de conveniencia,19.94,7.54,,False
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,12.94,19.05,,False
+uber_eats,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,13.62,16.72,,False
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,30.67,19.95,,False
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,0.0,11.42,,True
+uber_eats,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,15.15,11.58,,False
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,Burger King,33.1,11.25,,False
+uber_eats,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,19.55,7.8,,False
+uber_eats,Narvarte - Clase Media,middle,McDonald's,19.3,12.3,,False
+uber_eats,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,37.71,12.58,,False
+uber_eats,Coyoacán Centro - Clase Media,middle,Burger King,0.0,8.7,,True
+uber_eats,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,34.97,11.36,,False
+uber_eats,Tlalpan Centro - Clase Media,middle,McDonald's,0.0,15.72,,True
+uber_eats,Tlalpan Centro - Clase Media,middle,Burger King,23.74,9.81,,False
+uber_eats,Tlalpan Centro - Clase Media,middle,OXXO / Tienda de conveniencia,21.25,11.09,,False
+uber_eats,Coapa - Clase Media,middle,McDonald's,25.55,16.35,,False
+uber_eats,Coapa - Clase Media,middle,Burger King,38.46,13.03,,False
+uber_eats,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,26.73,10.94,,False
+uber_eats,Reforma - Zona de Oficinas,business,McDonald's,15.82,12.18,,False
+uber_eats,Reforma - Zona de Oficinas,business,Burger King,16.24,12.78,,False
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,Burger King,15.87,9.14,,False
+uber_eats,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,16.04,7.43,,False
+uber_eats,Centro Histórico,commercial,McDonald's,26.47,16.3,,False
+uber_eats,Centro Histórico,commercial,Burger King,17.42,19.67,,False
+uber_eats,Zona Rosa,commercial,McDonald's,34.62,19.34,,False
+uber_eats,Zona Rosa,commercial,Burger King,31.56,15.05,,False
+uber_eats,Zona Rosa,commercial,OXXO / Tienda de conveniencia,24.79,18.63,,False
+uber_eats,Lindavista - Clase Media,middle,Burger King,37.2,10.44,,False
+uber_eats,Pedregal - Alto Ingreso,premium,McDonald's,26.88,14.81,,False
+uber_eats,Pedregal - Alto Ingreso,premium,Burger King,17.65,10.12,,False
+uber_eats,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,18.39,14.18,,False
+uber_eats,Iztapalapa Centro - Popular,popular,McDonald's,33.17,12.13,,False
+uber_eats,Iztapalapa Centro - Popular,popular,Burger King,25.51,19.47,,False
+uber_eats,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,38.52,17.17,,False
+uber_eats,Tepito - Popular,popular,McDonald's,31.0,9.92,,False
+uber_eats,Tepito - Popular,popular,OXXO / Tienda de conveniencia,21.01,10.6,,False
+uber_eats,Ciudad Neza - Periférica,peripheral,McDonald's,0.0,19.32,,True
+uber_eats,Ciudad Neza - Periférica,peripheral,Burger King,0.0,15.81,,True
+uber_eats,Ciudad Neza - Periférica,peripheral,OXXO / Tienda de conveniencia,29.68,15.47,,False
+uber_eats,Ecatepec - Periférica,peripheral,Burger King,46.36,16.21,,False
+uber_eats,Satélite - Clase Media Alta,middle_high,McDonald's,29.11,17.91,,False
+uber_eats,Satélite - Clase Media Alta,middle_high,Burger King,25.7,11.0,,False
+uber_eats,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,29.54,19.92,,False
+uber_eats,Interlomas - Alto Ingreso,premium,McDonald's,21.96,7.75,,False
+uber_eats,Interlomas - Alto Ingreso,premium,Burger King,25.75,7.57,,False
+uber_eats,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,24.98,11.64,,False
+uber_eats,Universidad - Estudiantil,university,McDonald's,0.0,15.76,,True
+uber_eats,Universidad - Estudiantil,university,Burger King,40.59,10.27,,False
+uber_eats,IPN Zacatenco - Estudiantil,university,McDonald's,32.24,18.03,,False
+uber_eats,IPN Zacatenco - Estudiantil,university,Burger King,39.42,12.84,,False
+uber_eats,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,29.41,17.72,,False
+uber_eats,Azcapotzalco - Clase Media Baja,popular,Burger King,40.21,15.08,,False
+uber_eats,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,39.25,7.98,,False
+uber_eats,Xochimilco - Periférica,peripheral,Burger King,0.0,14.97,,True
+uber_eats,Xochimilco - Periférica,peripheral,OXXO / Tienda de conveniencia,33.16,15.57,,False
+uber_eats,Tacubaya - Clase Media,middle,McDonald's,26.37,9.25,,False
+uber_eats,Tacubaya - Clase Media,middle,Burger King,31.68,15.0,,False
+uber_eats,Tacubaya - Clase Media,middle,OXXO / Tienda de conveniencia,28.93,15.64,,False
+uber_eats,Mixcoac - Clase Media,middle,McDonald's,24.37,12.62,,False
+uber_eats,Mixcoac - Clase Media,middle,Burger King,27.84,7.16,,False
+uber_eats,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,26.42,19.95,,False
+uber_eats,Tláhuac - Periférica,peripheral,McDonald's,21.7,18.47,,False
+uber_eats,Tláhuac - Periférica,peripheral,Burger King,28.16,11.82,,False
+uber_eats,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,49.59,15.69,,False
+uber_eats,Cuajimalpa - Clase Media Alta,middle_high,Burger King,23.65,17.08,,False
+didi_food,Polanco - Alto Ingreso,premium,McDonald's,10.49,14.44,,False
+didi_food,Polanco - Alto Ingreso,premium,Burger King,16.53,15.75,,False
+didi_food,Polanco - Alto Ingreso,premium,OXXO / Tienda de conveniencia,19.51,8.33,,False
+didi_food,Condesa - Alto Ingreso,premium,Burger King,22.93,15.8,,False
+didi_food,Condesa - Alto Ingreso,premium,OXXO / Tienda de conveniencia,25.6,7.74,,False
+didi_food,Roma Norte - Alto Ingreso,premium,McDonald's,20.71,11.66,,False
+didi_food,Roma Norte - Alto Ingreso,premium,Burger King,11.26,15.38,,False
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,McDonald's,12.29,6.02,,False
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,Burger King,24.99,6.34,,False
+didi_food,Santa Fe - Alto Ingreso/Corporativo,premium,OXXO / Tienda de conveniencia,25.89,12.13,,False
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,McDonald's,16.74,14.47,,False
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,Burger King,22.19,10.3,,False
+didi_food,Lomas de Chapultepec - Alto Ingreso,premium,OXXO / Tienda de conveniencia,18.34,12.8,,False
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,McDonald's,21.67,12.17,,False
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,Burger King,14.62,7.22,,False
+didi_food,Del Valle Centro - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,25.19,10.52,,False
+didi_food,Narvarte - Clase Media,middle,McDonald's,31.51,11.27,,False
+didi_food,Narvarte - Clase Media,middle,OXXO / Tienda de conveniencia,26.92,16.0,,False
+didi_food,Coyoacán Centro - Clase Media,middle,McDonald's,16.24,15.98,,False
+didi_food,Coyoacán Centro - Clase Media,middle,Burger King,0.0,13.1,,True
+didi_food,Coyoacán Centro - Clase Media,middle,OXXO / Tienda de conveniencia,26.92,14.73,,False
+didi_food,Tlalpan Centro - Clase Media,middle,McDonald's,24.68,5.69,,False
+didi_food,Tlalpan Centro - Clase Media,middle,Burger King,34.31,16.97,,False
+didi_food,Coapa - Clase Media,middle,McDonald's,33.06,16.49,,False
+didi_food,Coapa - Clase Media,middle,OXXO / Tienda de conveniencia,25.81,12.03,,False
+didi_food,Reforma - Zona de Oficinas,business,McDonald's,13.49,6.2,,False
+didi_food,Reforma - Zona de Oficinas,business,Burger King,0.0,5.86,,True
+didi_food,Reforma - Zona de Oficinas,business,OXXO / Tienda de conveniencia,25.44,14.81,,False
+didi_food,Insurgentes Sur - Zona de Oficinas,business,McDonald's,21.82,17.07,,False
+didi_food,Insurgentes Sur - Zona de Oficinas,business,Burger King,0.0,6.54,,True
+didi_food,Insurgentes Sur - Zona de Oficinas,business,OXXO / Tienda de conveniencia,21.78,10.61,,False
+didi_food,Centro Histórico,commercial,McDonald's,32.02,14.9,,False
+didi_food,Centro Histórico,commercial,Burger King,26.2,14.93,,False
+didi_food,Centro Histórico,commercial,OXXO / Tienda de conveniencia,28.76,6.39,,False
+didi_food,Zona Rosa,commercial,McDonald's,23.81,5.85,,False
+didi_food,Zona Rosa,commercial,Burger King,13.91,17.19,,False
+didi_food,Zona Rosa,commercial,OXXO / Tienda de conveniencia,27.27,5.78,,False
+didi_food,Lindavista - Clase Media,middle,McDonald's,12.35,17.4,,False
+didi_food,Lindavista - Clase Media,middle,Burger King,22.08,10.53,,False
+didi_food,Lindavista - Clase Media,middle,OXXO / Tienda de conveniencia,24.29,9.43,,False
+didi_food,Pedregal - Alto Ingreso,premium,McDonald's,17.58,16.87,,False
+didi_food,Pedregal - Alto Ingreso,premium,Burger King,9.72,9.28,,False
+didi_food,Pedregal - Alto Ingreso,premium,OXXO / Tienda de conveniencia,10.1,11.12,,False
+didi_food,Iztapalapa Centro - Popular,popular,McDonald's,0.0,14.52,,True
+didi_food,Iztapalapa Centro - Popular,popular,Burger King,32.5,11.98,,False
+didi_food,Iztapalapa Centro - Popular,popular,OXXO / Tienda de conveniencia,15.24,8.38,,False
+didi_food,Tepito - Popular,popular,McDonald's,18.98,7.75,,False
+didi_food,Tepito - Popular,popular,OXXO / Tienda de conveniencia,37.14,12.9,,False
+didi_food,Ciudad Neza - Periférica,peripheral,McDonald's,0.0,5.89,,True
+didi_food,Ciudad Neza - Periférica,peripheral,Burger King,31.57,7.94,,False
+didi_food,Ecatepec - Periférica,peripheral,McDonald's,40.99,16.97,,False
+didi_food,Ecatepec - Periférica,peripheral,Burger King,24.36,17.24,,False
+didi_food,Ecatepec - Periférica,peripheral,OXXO / Tienda de conveniencia,15.79,15.01,,False
+didi_food,Satélite - Clase Media Alta,middle_high,McDonald's,24.45,17.39,,False
+didi_food,Satélite - Clase Media Alta,middle_high,Burger King,18.97,13.51,,False
+didi_food,Satélite - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,11.93,5.93,,False
+didi_food,Interlomas - Alto Ingreso,premium,Burger King,25.01,10.65,,False
+didi_food,Interlomas - Alto Ingreso,premium,OXXO / Tienda de conveniencia,10.5,9.22,,False
+didi_food,Universidad - Estudiantil,university,McDonald's,33.27,17.79,,False
+didi_food,Universidad - Estudiantil,university,Burger King,0.0,8.28,,True
+didi_food,Universidad - Estudiantil,university,OXXO / Tienda de conveniencia,24.66,10.11,,False
+didi_food,IPN Zacatenco - Estudiantil,university,Burger King,12.98,15.27,,False
+didi_food,IPN Zacatenco - Estudiantil,university,OXXO / Tienda de conveniencia,22.1,14.85,,False
+didi_food,Azcapotzalco - Clase Media Baja,popular,McDonald's,30.71,5.49,,False
+didi_food,Azcapotzalco - Clase Media Baja,popular,Burger King,24.85,11.8,,False
+didi_food,Azcapotzalco - Clase Media Baja,popular,OXXO / Tienda de conveniencia,0.0,5.95,,True
+didi_food,Tacubaya - Clase Media,middle,McDonald's,30.68,7.41,,False
+didi_food,Tacubaya - Clase Media,middle,Burger King,26.57,8.74,,False
+didi_food,Mixcoac - Clase Media,middle,McDonald's,25.79,11.62,,False
+didi_food,Mixcoac - Clase Media,middle,Burger King,0.0,12.24,,True
+didi_food,Mixcoac - Clase Media,middle,OXXO / Tienda de conveniencia,30.09,5.91,,False
+didi_food,Tláhuac - Periférica,peripheral,McDonald's,0.0,5.89,,True
+didi_food,Tláhuac - Periférica,peripheral,OXXO / Tienda de conveniencia,44.6,6.29,,False
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,McDonald's,16.1,11.93,,False
+didi_food,Cuajimalpa - Clase Media Alta,middle_high,OXXO / Tienda de conveniencia,25.83,10.41,,False

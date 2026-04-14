@@ -147,7 +147,22 @@ Screenshots de evidencia en `data/screenshots/`.
 ```bash
 # Generar informe con datos existentes
 python main.py --analyze-only --report
+
+# Exportar datos a Excel/CSV para Power BI
+python export_powerbi.py
 ```
+
+### Exportación Power BI
+
+El script `export_powerbi.py` genera:
+- **Excel** (`reports/competitive_data_*.xlsx`) con 6 hojas:
+  - `Precios` - 582+ registros de precios por producto/plataforma/zona
+  - `Fees` - 220+ registros de delivery y service fees
+  - `Promociones` - 240+ promociones capturadas
+  - `Resumen_Plataformas` - KPIs agregados por plataforma
+  - `Análisis_Geográfico` - Métricas por zona y plataforma
+  - `Top_5_Insights` - Insights accionables con Finding/Impacto/Recomendación
+- **CSVs** individuales en `reports/csv/` para importación directa
 
 El informe HTML interactivo se genera en `reports/competitive_report_*.html` e incluye:
 
@@ -166,6 +181,9 @@ El informe HTML interactivo se genera en `reports/competitive_report_*.html` e i
 ```
 competitive-intelligence-rappi/
 ├── main.py                          # Orquestador principal
+├── generate_sample_data.py          # Generador de datos de muestra
+├── export_powerbi.py                # Exportador Excel/CSV para Power BI
+├── PRESENTACION.md                  # Guión de presentación (30 min)
 ├── requirements.txt                 # Dependencias Python
 ├── README.md                        # Este archivo
 ├── .gitignore
